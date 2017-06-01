@@ -41,7 +41,7 @@
   ../../include/qcom/select_api.h ../../include/qcom/timetype.h \
   ../../include/threadx/tx_event_flags.h ../../include/qcom/qcom_nvram.h \
   ../../include/qcom/qcom_uart.h ../../include/qcom/qcom_mem.h \
-  ../../include/arwlib/arwlib.h sdk_shell.h wifi_config.h \
+  ../../include/arwlib/arwlib.h wifi_config.h \
   ../../include/qcom/qcom_common.h ../../include/qcom/qcom_internal.h \
   ../../include/qcom/tx_alloc_api.h ../../include/qcom/qcom_cdr.h \
-  ../../include/qcom/qcom_wlan.h AES.h
+  ../../include/qcom/qcom_wlan.h sdk_shell.h

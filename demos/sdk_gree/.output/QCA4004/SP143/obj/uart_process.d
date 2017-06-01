@@ -41,7 +41,7 @@
   ../../include/qcom/basetypes.h ../../include/qcom/qcom_nvram.h \
   task_manage.h ../../include/threadx/tx_thread.h wifi_config.h \
   ../../include/qcom/qcom_internal.h ../../include/qcom/tx_alloc_api.h \
-  ../../include/qcom/qcom_cdr.h ../../include/qcom/qcom_wlan.h AES.h \
+  ../../include/qcom/qcom_cdr.h ../../include/qcom/qcom_wlan.h \
   nvram_config.h sdk_shell.h ../../include/arwlib/arwlib.h \
-  socket_process.h base64.h ../../include/qcom/qcom_uart.h cjson.h list.h \
-  uart_process.h
+  socket_process.h AES.h base64.h ../../include/qcom/qcom_uart.h cjson.h \
+  list.h uart_process.h

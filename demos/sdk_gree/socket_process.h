@@ -101,6 +101,8 @@ extern tcp_accept_t tcpAccept;
 extern client_t tcpClient;
 
 
+unsigned char  string_tohex2(const char *str);
+
 void nearSocketTask(unsigned int input_thread);
 int udpServer_proce(char * rxbuf, int rxlen);
 

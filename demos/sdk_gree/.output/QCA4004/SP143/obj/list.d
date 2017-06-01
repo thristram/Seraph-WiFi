@@ -40,6 +40,6 @@
   ../../include/threadx/tx_thread.h wifi_config.h \
   ../../include/qcom/qcom_internal.h ../../include/qcom/tx_alloc_api.h \
   ../../include/qcom/qcom_cdr.h ../../include/qcom/stdint.h \
-  ../../include/qcom/qcom_wlan.h AES.h nvram_config.h sdk_shell.h \
+  ../../include/qcom/qcom_wlan.h nvram_config.h sdk_shell.h \
   ../../include/arwlib/arwlib.h socket_process.h \
   ../../include/qcom/socket.h uart_process.h list.h

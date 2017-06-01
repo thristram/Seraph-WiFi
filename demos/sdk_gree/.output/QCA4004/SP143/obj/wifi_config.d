@@ -42,5 +42,5 @@
   ../../include/qcom/qcom_cdr.h ../../include/qcom/qcom_nvram.h \
   ../../include/arwlib/arwlib.h task_manage.h \
   ../../include/threadx/tx_thread.h sdk_shell.h wifi_config.h \
-  ../../include/qcom/qcom_internal.h ../../include/qcom/qcom_wlan.h AES.h \
+  ../../include/qcom/qcom_internal.h ../../include/qcom/qcom_wlan.h \
   cjson.h socket_process.h nvram_config.h list.h

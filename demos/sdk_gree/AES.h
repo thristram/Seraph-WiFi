@@ -6,6 +6,10 @@
 
 #define AES_KEY_LEN 	16 
 
+#ifndef AES_BLOCK_SIZE
+#define	AES_BLOCK_SIZE	16
+#endif
+
 
 
 extern char *AES_N2;

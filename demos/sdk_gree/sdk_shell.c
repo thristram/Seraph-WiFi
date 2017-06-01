@@ -19,6 +19,12 @@
 
 char *country_code = "US";	/* 设置国家代码，在使用ap模式时使用，目前只有sta模式 */
 
+char *id_public_key = ">ff?gQ=d=~585E{";
+
+char *msg_public_key = "77]\"9u0tdbsWAXf";
+
+
+
 LED_Info_t LEDShow;
 
 /* 保存抓包后的信息 */
@@ -39,18 +45,93 @@ TX_BYTE_POOL pool;
 
 
 
+
+
+
+/*   H E X 2 _ T O   C H A R   */
+/*-------------------------------------------------------------------------
+    将16进制数转化为两个字符
+-------------------------------------------------------------------------*/
+void hex2_toCapitalChar(uchar d, char *p)
+{
+	uchar i;
+	
+	i = d /16;
+	if(i <= 9){*p = '0' + i;}
+	else{*p = 'A' + i - 10;}
+	
+	i = d %16;
+	if(i <= 9){*(p+1) = '0' + i;}
+	else{*(p+1) = 'A' + i - 10;}
+
+}
+
+
 /*-------------------------------------------------------------------------
     生成kuaifi秘钥
 -------------------------------------------------------------------------*/
 void generate_kuaifiKey(void)
 {
+	int i;
+	int mac_address_len;
+	char mac_address[20] = {0};
+	char temp[64] = {0};
+	char md5ret[64] = {0};
 
+	for(i=0; i < 6; i++){
+		hex2_toCapitalChar(tDeviceInfo.uMAC[i], &mac_address[3*i]);
+		mac_address[3*i + 2] = ':';
+	}	
+	mac_address_len = 12+5;
+	wifi_printf("\n mac_address:%s", mac_address);	
 
+	//id key 
+	memcpy(temp, mac_address, mac_address_len);
+	memcpy(temp+mac_address_len, id_public_key, AES_KEY_LEN);	
 
+	qcom_sec_md5_init();
+	qcom_sec_md5_update((uchar*)temp, mac_address_len+AES_KEY_LEN -1);
+	qcom_sec_md5_final(md5ret);
+		
+	memset(temp, 0, 64);
+	memcpy(temp, md5ret + 8, 15);
+	memcpy(temp+15, mac_address, mac_address_len);
 
+	memset(md5ret, 0, 64);	
+	qcom_sec_md5_init();
+	qcom_sec_md5_update((uchar*)temp, 15+mac_address_len);
+	qcom_sec_md5_final(md5ret);
+	wifi_printf("\n id key:%s", md5ret); 
 
+	for(i=0; i < AES_KEY_LEN; i++){
+		kuaifiKey.idKey[i] = string_tohex2(md5ret + i*2);
+	}
+	printf_char_HEX((char*)kuaifiKey.idKey, AES_KEY_LEN);
 
+	//msg key 
+	memset(temp, 0, 64);
+	memcpy(temp, mac_address, mac_address_len);
+	memcpy(temp+mac_address_len, msg_public_key, AES_KEY_LEN);	
 
+	memset(md5ret, 0, 64);
+	qcom_sec_md5_init();
+	qcom_sec_md5_update((uchar*)temp, mac_address_len+AES_KEY_LEN -1);
+	qcom_sec_md5_final(md5ret);
+
+	memset(temp, 0, 64);
+	memcpy(temp, md5ret + 3, 17);
+	memcpy(temp+17, mac_address, mac_address_len);
+
+	memset(md5ret, 0, 64);	
+	qcom_sec_md5_init();
+	qcom_sec_md5_update((uchar*)temp, 17+mac_address_len);
+	qcom_sec_md5_final(md5ret);
+	wifi_printf("\n msg key:%s", md5ret); 
+
+	for(i=0; i < AES_KEY_LEN; i++){
+		kuaifiKey.msgKey[i] = string_tohex2(md5ret + i*2);
+	}
+	printf_char_HEX((char*)kuaifiKey.msgKey, AES_KEY_LEN);
 
 
 }

@@ -14,6 +14,7 @@
 #include "sdk_shell.h"
 #include "wifi_config.h"
 
+#include "AES.h"
 
 //#include "arw_sm.h"  //lyh
 
@@ -95,37 +96,58 @@ void kuaifi_autoconnect_set(int enable)
 /*extern int arw_uart_comm_fwd_write(char* p, int* l);*/
 void kf_cb(void *buf)
 {
-	uint i;
+	uchar i, ssidlen = 0, keylen = 0;
+	uchar zero[AES_BLOCK_SIZE] = {0};
+	uchar temp[64];
+	int ret;
 	
 	smart_config_head *head = (smart_config_head *)buf;
 	smart_config_data *data = (smart_config_data *)(head + 1);
-//	char *xordata = "seraph4004seraph4004seraph4004seraph4004seraph4004seraph4004seraph4004";
-//	int i, keylen;
-//	uchar temp;
 
-
-	A_PRINTF(" ----- ssid	:%s\n", data->ap_ssid);
-	for(i=0; i< 32; i++){
+	i = 0;
+	while(memcmp(data->ap_ssid+i*AES_BLOCK_SIZE, zero, AES_BLOCK_SIZE)){
+		i++;
+   		if(i == 2){ break;}		//32
+	}
+	ssidlen = i*AES_BLOCK_SIZE;
+	A_PRINTF(" ----- ssid(%d):\n", ssidlen);
+	for(i=0; i< ssidlen; i++){
 		A_PRINTF(" %02x", data->ap_ssid[i]);
 	}
-
-	A_PRINTF(" ----- psk	:%s\n", data->ap_passkey);
-	for(i=0; i< 64; i++){
+	
+	i = 0;
+	while(memcmp(data->ap_passkey+i*AES_BLOCK_SIZE, zero, AES_BLOCK_SIZE)){
+		i++;
+		if(i == 4){ break;}		//64
+	}
+	keylen = i*AES_BLOCK_SIZE;
+	A_PRINTF(" ----- psk(%d):\n", keylen);
+	for(i=0; i< keylen; i++){
 		A_PRINTF(" %02x", data->ap_passkey[i]);
 	}
 
-	
+	if(keylen > 0 && ssidlen > 0){
+		if(!memcmp(data->ap_passkey, kuaifiKey.idKey, AES_BLOCK_SIZE)){		/* id key ÏàÍ¬ */
+			//½âÃÜ
 
-//	keylen = strlen(data->ap_passkey);
-//	if(keylen < 64){
-//		for(i = 0; i < keylen; i++){
-//			temp = data->ap_passkey[i] - 0x11;
-//			data->ap_passkey[i] = temp ^ *(xordata + i);
-//		}
-//	}
-//	A_PRINTF(" ----- psk decrypt	:%s\n", data->ap_passkey);
-	
-	memcpy(&kuaifiSave, data, sizeof(kuaifiSave));
+			memset(temp, 0, 64);
+			memset(kuaifiSave.ap_passkey, 0, 64);
+			ret = 0;
+			if(keylen > AES_BLOCK_SIZE){
+				ret = aes_cbc_decrypt(kuaifiKey.msgKey, data->ap_passkey + AES_BLOCK_SIZE, keylen -AES_BLOCK_SIZE, temp);		
+				memcpy(kuaifiSave.ap_passkey, temp, ret);
+			}
+			A_PRINTF("\n key:%s", kuaifiSave.ap_passkey);
+
+			memset(temp, 0, 64);
+			ret = aes_cbc_decrypt(kuaifiKey.msgKey, data->ap_ssid, ssidlen, temp);		
+			memset(kuaifiSave.ap_ssid, 0, 32);
+			memcpy(kuaifiSave.ap_ssid, temp, ret);
+			A_PRINTF("\n ssid:%s", kuaifiSave.ap_ssid);
+
+		}
+	}	
+
 		
 }
 

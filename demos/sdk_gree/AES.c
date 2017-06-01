@@ -79,19 +79,21 @@ int _aes_cbc_invCipher(const uint8_t *key, const uint8_t *iv, uint8_t *cipher, i
  *
 ***********************************************************
 */
-int aes_PKCS5_dePadding(uint8_t *plain, int len)
-{
-	int i;
+//int aes_PKCS5_dePadding(uint8_t *plain, int len)
+//{
+//	int i;
 
-	for (i = (len-1); i >= (len-16); i--) {
-		if(plain[i] <= 16)
-			plain[i] = 0;
-		else
-			break;
-	}
+//	for (i = (len-1); i >= (len-16); i--) {
+//		if(plain[i] <= 16)
+//			plain[i] = 0;
+//		else
+//			break;
+//	}
 
-	return i+1;
-}
+//	return i+1;
+//}
+
+
 
 
 /*
@@ -132,6 +134,7 @@ int aes_cbc_decrypt(uint8_t *key, uint8_t * cipher, int cipLen, uint8_t * plain)
      }
 
      return plain_len;
+	 
 }
 
 
@@ -187,14 +190,46 @@ int aes_cbc_encrypt(uint8_t *key, uint8_t *plain, int plain_len, uint8_t *cipher
  *
 ***********************************************************
 */
-int aes_PKCS5_padding(uint8_t *plain, int plen)
-{
-	int newlen;
+//int aes_PKCS5_padding(uint8_t *plain, int plen)
+//{
+//	int newlen;
 
-	newlen = plen + (16 - plen % 16);
+//	newlen = plen + (16 - plen % 16);
 
-	return newlen;
-}
+//	return newlen;
+//}
+
+  /*-------------------------------------------------------------------------
+	 填充，要保证plain分配的空间大于(plen+AES_BLOCK_SIZE)
+  -------------------------------------------------------------------------*/
+ int aes_PKCS5_padding(uint8_t *plain, int len)
+ {
+	 int paddinglen;
+  
+	 paddinglen = AES_BLOCK_SIZE - len % AES_BLOCK_SIZE;
+	 memset(plain + len, paddinglen, paddinglen);
+	 len += paddinglen;
+ 
+	 return len;
+ }
+
+ /*-------------------------------------------------------------------------
+	直接将被填充部分置0
+ -------------------------------------------------------------------------*/
+ int aes_PKCS5_dePadding(uint8_t *plain, int len)
+ {
+	 int paddingdata;
+  
+	 paddingdata = *(plain + len -1);
+	 if(paddingdata <= AES_BLOCK_SIZE){
+		 memset(plain + len -paddingdata , 0, paddingdata);
+		 len -= paddingdata;
+	 }
+
+	 
+	 return len;
+ }
+
 
 
 

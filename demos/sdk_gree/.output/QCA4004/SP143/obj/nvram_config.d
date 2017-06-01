@@ -39,6 +39,6 @@
   ../../include/arwlib/arwlib.h wifi_config.h \
   ../../include/qcom/qcom_internal.h ../../include/qcom/tx_alloc_api.h \
   ../../include/qcom/qcom_cdr.h ../../include/qcom/stdint.h \
-  ../../include/qcom/qcom_wlan.h AES.h task_manage.h \
+  ../../include/qcom/qcom_wlan.h task_manage.h \
   ../../include/threadx/tx_thread.h socket_process.h \
   ../../include/qcom/socket.h nvram_config.h
