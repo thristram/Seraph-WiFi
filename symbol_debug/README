@@ -1,0 +1,81 @@
+Please set up the WORKAREA first. 
+	Currently support hardware, Mckinley1.3, Mckinley2.0, Mckinley2.1
+
+Build how to:
+	build target firmware (generate necessary *.out files)
+	execute "make" (under target/support/symbol_debug)
+
+Usage:
+	./symbol <error dump> <map file 1> <map file 2> ... <map file n>
+
+Example of error dump:
+	0x31c8088a 0x00000000 0x00959450 0x0000400c
+        0x00959450 0x00060530 0x00000020 0x00000001
+        0x00403a80 0x00403910 0x00403980 0x00409570
+        0x0000000d 0xffffffff 0x00968840 0x0096884b
+        0x00000000 0x00000000 0x00000000 0x00000000
+        0x00000001 0x00000000 0x00403bc8 0xffffffff
+        0x00402ef8 0x00000001 0x00054000 0x004048d0
+        0x004048d2 0x05000300 0x00000500 0x0096884b
+        0x80959423 0x00404900 0x00403980 0x00000010
+        0x03010500 0x00000000 0x00968840 0x0096884b
+        0x00000001 0x00000004 0x00000000 0x00400600
+        0x809594f3 0x00404950 0x00000000 0x00403910
+        0x00400a00 0x00403980 0x00000010 0x00000000
+        0x809018f0 0x00404a20 0x00000000 0x00402f40
+        0x00000003 0xc0200304 0x0000001f 0x00000100
+        0x8090352e 0xc0966420 0x40959450 0x809594f3
+        0x8095877c 0x809583be 0x809579b4 0x80957a16
+        0x80902dca 0x809018e4 0x80901897 0x809018fd
+        0x409007e4 0x00000000 0x00000000 0x00000000
+
+Debug tool output example:
+
+case 1. Firmware assertion
+====================debug information===================
+target id = 31c8088a
+assertion line = 0
+exception pc = 0x00959450 _handle_diag_cmd /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/usbhwcore/drv/boot/usb_bmi.c
+bad virtual pc = 0x0000400c  NONE NONE
+program state = 0x00060530
+cause = 0x0000000d
+=========================================================
+
+------------------------stack end------------------------------
+#0  0x0090352e in cmnos_assfail (arg TBD) /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/os/common/cmnos_misc.c
+#1  0x00966420 in _GeneralException (arg TBD) /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/os/athos/AR6002/xtos/exc-c-wrapper-handler.S
+#2  0x00959450 in _handle_diag_cmd (arg TBD) /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/usbhwcore/drv/boot/usb_bmi.c
+#3  0x009594f3 in usb_vendor_cmd_callback (arg TBD) /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/usbhwcore/drv/boot/usb_bmi.c
+#4  0x0095877c in _usb_vendor_cmd (arg TBD) /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/usbhwcore/drv/evci/usbhw_api.c
+#5  0x009583be in _usb_ep0_setup (arg TBD) /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/usbhwcore/drv/evci/usbhw_api.c
+#6  0x009579b4 in _evci_process_usb_interrupts (arg TBD) /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/usbhwcore/drv/evci/evci.c
+#7  0x00957a16 in _evci_usb_int_handler (arg TBD) /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/usbhwcore/drv/evci/evci.c
+#8  0x00902dca in cmnos_intr_handle_pending_dsrs (arg TBD) /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/os/common/cmnos_intrinf.c
+#9  0x009018e4 in check_idle (arg TBD) /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/os/athos/AR6002/athos_main.c
+#10  0x00901897 in athos_main (arg TBD) /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/os/athos/AR6002/athos_main.c
+#11  0x009018fd in main (arg TBD) /opt/tmp/olcaMcKinley1.3ROM.2186/sw/target/src/os/athos/AR6002/athos_main.c
+#12  0x009007e4 in NONE (arg TBD) NONE
+#13  0x00000000 in NONE (arg TBD) NONE
+#14  0x00000000 in NONE (arg TBD) NONE
+#15  0x00000000 in NONE (arg TBD) NONE
+------------------------stack start------------------------------
+
+case 2. Firmware null pointer dereference
+====================debug information===================
+target id = 31c8088a
+assertion line = 0
+exception pc = 0x00000000 NONE NONE
+bad virtual pc = 0x00000000  NONE NONE
+program state = 0x00000000
+cause = 0x00000000
+=========================================================
+
+------------------------stack end------------------------------
+mem ctl isr epc=9a709a
+#0  0x009a709a in patch_btcoexA2dpSwitchMediumToWlan (arg TBD) /home/jason/Workspace/ath6kl_3.5.1/olca/target/patch/AR6004/v5/btcoexCommon_patch.c
+------------------------stack start------------------------------
+
+
+3. Reference
+	    http://sharepoint/qca/dept/eng/TDCSW/Docs/Forms/AllItems.aspx?RootFolder=%2Fqca%2Fdept%2Feng%2FTDCSW%2FDocs%2FSoftware%2FFirmware%20Crash%20Debug&InitialTabId=Ribbon%2EDocument&VisibilityContext=WSSTabPersistence
+

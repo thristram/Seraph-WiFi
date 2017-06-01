@@ -1,0 +1,1885 @@
+00428000 A _indir_tbl
+00428a00 A AR6K_boot_info
+00429c18 A allocram_remaining_bytes
+0042a1b4 A gpAniStruct_35
+0042a1b8 A pWhalAniIndirectionTable
+0042a1c0 A whalIndirectionTable
+0042a508 A whalPreInitFn
+0042a644 A pWhalPaprdIndirectionTable
+0042a7a8 A pWhalResetIndirectionTable
+0042ac20 A eepromStruct
+0042acc8 A pWhalEepromIndirectionTable
+0042ad70 A g_pHTCInstances
+0042ad88 A malloc_arena_default_block
+0042ad9c A nvramr_api
+0042aeec A g_pWMI
+0042af18 A _m1m4_api
+0042af24 A _supp_auth_int_api
+0042af2c A _supp_auth_api
+0042af30 A tkip_cm_timer
+0042b210 A gpDevCommon
+0042b214 A gdevp
+0042b220 A devArray
+0042b2c4 A firmware_bridge
+0042b2ec A g_MccBmissWarEnable
+0042b468 A ieee80211_hdr_fns
+0042b480 A _tx_aggr_apis
+0042b484 A _tx_aggr_int_apis
+0042b490 A g_pTXRX
+0042b494 A g_frame_count
+0042b496 A g_frame_count_start
+0042b4f8 A _mac_dma_apis
+0042b4fc A txStatusRingSpace_48
+0042b508 A rxheadbufSpace_65
+0042b524 A gBeaconInterval
+0042b5f4 A g_bp
+0042b600 A fwd_AssocReq
+0042b608 A _win_check_api
+0042b628 A pco_cmn_struct
+0042b630 A co_scheduler_debug
+0042b658 A lplConnectNotify
+0042c220 A assert_desc
+0042ca00 A p2p_go_formation
+0042ca10 A pg_wps
+0042ca80 A pSRCxt_52
+0042cac8 A pg_ip
+0042cad8 A g_fragmented_rx
+0042cae0 A tcp_connection_in_progress
+0042cb40 A tcp_accept_in_progress
+0042cb70 A tcp_close_in_progress
+0042cbd0 A tcp_accept_initiate
+0042cc00 A tcp_close_dest_unreachable
+0042cc30 A tcp_close_pending
+0042cc60 A tcp_listen_in_progress
+0042ccc0 A g_current_time
+0042ccd0 A g_iniche_tick
+0042cd54 A ip6unspecified
+0042d05c A gpLplApiIndirectionTable
+0042d178 A gppool_indirection_table
+0042d1c8 A netlist
+0042d1dc A ip_mib
+0042d230 A rcvdq
+0042d244 A MaxLnh
+0042d254 A udp_mib
+0042d288 A icmp_mib
+0042d320 A soq
+0042d334 A tcpmib
+0042d3b0 A tcb
+0042d40c A tcpstat
+0042d508 A tcp_maxidle
+0042d50c A tcp_iss
+0042d524 A dhc_stats
+0042d560 A dhc_states
+0042d5a0 A gDhsPool
+0042d5bc A dhs_conn
+0042d5c0 A gDhsClntInfo
+0042d730 A firstudp
+0042f4e8 A up_to_ac
+0042f4f0 A bcast_mac
+0042f730 A defaultHTCap
+0042fb50 A dh_group5_prime
+0043123c A whalNumChannel
+00431244 A whalInternalIndirectionTable
+00431324 A whalPaprdIndirectionTable_88
+00431580 A whalIntMap
+004315d8 A g_HTCIndirectionTable
+00431650 A malloc_api
+004316a0 A nvram_api
+004316bc A nvram_configp
+004316f0 A si_api
+00431768 A si_multiIO_api
+00431808 A WpaApiIndirectionTable
+00431814 A SHA1ApiIndirectionTable
+0043189c A gNumDev
+004318b0 A wlan_patch_init_fn
+004318b4 A max_tids
+004318c8 A wlanDevApiIndirectionTable
+00431940 A ieee80211InternalIndirectionTable
+00431990 A ProcessFrameEntries
+004319a8 A ieeeApiIndirectionTable
+004319ec A frmGenApiIndirectionTable
+00431a60 A keymgmtApiIndirectionTable
+00431b30 A wlanWpaApiIndirectionTable
+00431b50 A rateInternalIndirectionTable
+00431be8 A rateApiIndirectionTable
+00431db4 A wlanCtrlApiIndirectionTable
+00431dc8 A wlanSchedulerInternalIndirectionTable
+00431dd8 A wlanSchedulerApiIndirectionTable
+00431e00 A wlanWmiApiIndirectionTable
+00431e3c A wlanWmiInternalIndirectionTable
+00432070 A WmiMiscDispatchEntries
+004324d0 A P2P_FW_DispatchEntries
+004325ec A ath_aggr_max_subframes
+00432614 A wlanAMSDUSlice
+00432634 A amsduIntAPI
+00432650 A txrx_api_table
+00432880 A _txrx_int_fn_tbl
+00432974 A rxcomplete_yield_count
+0043299c A txrx_qos_api_table
+004329f0 A txrxThrottleApiIndirectionTable
+00432a34 A ath_num_ts_ring
+00432a38 A ath_txbuf
+00432a3c A ath_rxbuf
+00432a40 A ath_rxheadbuf
+00432a44 A max_ath_rxheadbuf
+00432a48 A ath_mgmtbuf
+00432a4c A ath_smmgmtbuf
+00432a50 A ath_rmbuf
+00432a54 A num_ath_data_buf
+00432a60 A macConApiIndirectionTable
+00432a84 A _bfp_pvt_api
+00432a88 A _bfp_api
+00432ab4 A wlanBeaconInternalIndirectionTable
+00432af4 A wlanBeaconApiIndirectionTable
+00432b7c A mlmeInternalIndirectionTable
+00432c14 A mlmeApiIndirectionTable
+00432cb0 A pWlanApApiIndirectionTable
+00432cb4 A wlanApInternalIndirectionTable
+00432da4 A pmInternalIndirectionTable
+00432e94 A pmApiIndirectionTable
+00433050 A homechan_policy
+00433054 A gco_internal
+004330dc A offchan_policy
+004330e0 A gco_api
+00433168 A config_co_scheduler_auto_stop
+0043316c A start_time_slop
+00433170 A fairness_sch_home_low_chop_duration_limit
+00433174 A tx_drain_ahead
+00433178 A wait_ap_drain
+00433190 A gdc_api
+00433300 A gro_api
+004333e4 A gcm_api
+004334a0 A ccxApiIndirectionTable
+004335b0 A pktlog_api_table
+00433614 A p2p_api_table
+00433a04 A assert_pattern
+00433a2c A _wps_main_internal_api
+00433a84 A _wps_api
+00433a9c A _wps_misc_internal_api
+00433aac A _wps_wmi_internal_api
+00433abc A _eap_wsc_internal_api
+00433ae8 A _wps_attrbuild_external_api
+00433b04 A _wps_attrbuild_internal_api
+00433ba0 A _wps_attrparse_internal_api
+00433ba8 A _wpsbuf_internal_api
+00433bc0 A _wps_dev_attr_internal_api
+00433c00 A _wps_dev_attr_ext_api
+00433c8c A _bignum_internal_api
+00433ca4 A _libtomath_internal_api
+00433d6c A _sha256_internal_api
+00433d88 A _wps_attrprocess_internal_api
+00433e28 A _wpscmn_internal_api
+00433ea4 A StrRclInternalIndirectionTable
+00433f14 A StrRclApiIndirectionTable
+00434200 A _ip_offload_api
+00434234 A in_num_modules
+00434280 A in_modules
+00434298 A ifdrv_internal_api
+00434324 A ifsock6_internal_api
+00434354 A ininit_internal_api
+00434384 A ipmain_internal_api
+00434388 A inport_internal_api
+00434398 A intimer_internal_api
+004343a4 A inutil_internal_api
+004343bc A osport_internal_api
+004343c8 A soketlayer_internal_api
+00434448 A SocketLayerApiIndirectionTable
+0043445c A ip6_internal_api
+00434554 A ip6route_internal_api
+00434640 A tcp6_internal_api
+0043464c A udp6_internal_api
+00434680 A p2p_fw_go_ps_table
+004346a4 A p2p_go_schedule_int_api_func
+00434724 A p2p_fw_go_table
+00434750 A p2p_main_int_api_func
+00434834 A p2p_fw_api_table
+004348a8 A p2p_node_int_api_func
+004348f4 A p2p_parse_int_api_func
+00434928 A p2p_pd_int_api_func
+00434940 A p2p_fw_pd_table
+0043498c A p2p_utils_int_api_func
+00434a08 A p2p_dev_disc_int_api_func
+00434a30 A p2p_goneg_int_api_func
+00434a64 A p2p_inv_int_api_func
+00434ae8 A g_pBTCOEXApi
+004351e8 A iparp_internal_api
+00435238 A ipcmn_internal_api
+00435250 A uid_46
+00435254 A ipnet_internal_api
+0043527c A ipstart_internal_api
+00435284 A ipudp_internal_api
+004352a8 A ipdmx_internal_api
+004352c4 A ipreasm_internal_api
+00435300 A ipicmp_internal_api
+00435304 A cb_internal_api
+00435338 A cksum_internal_api
+00435360 A task_int_api
+004353a8 A udp_protosw
+004353c4 A nptcp_internal_api
+00435408 A TCPTV_MSL
+0043540c A sockcall_internal_api
+0043543c A socket2_internal_api
+00435490 A socket_tcp_internal_api
+004354c8 A tcp_in_internal_api
+004354f4 A tcprexmtthresh
+00435500 A tcp_out_internal_api
+00435510 A tcp_outflags
+0043551c A tcp_subr_internal_api
+00435540 A tcp_keepintvl
+00435544 A tcp_keepidle
+00435548 A tcp_timr_internal_api
+00435560 A tcp_backoff
+00435570 A tcp_usr_internal_api
+00435588 A tcp_zio_internal_api
+00435598 A udpsock_internal_api
+004355b0 A in_pcb_internal_api
+00435600 A dhcpclnt2_internal_api
+0043566c A xids
+00435674 A reqlist
+004356a8 A dhcp_server_internal_api
+004356f8 A netmain_mod_internal_api
+00435740 A pktalloc_internal_api
+0043578c A q_internal_api
+00435798 A udpopen_internal_api
+004357a0 A ipopt_internal_api
+004357b0 A ip6_pcb_internal_api
+004357d4 A ipitimer_internal_api
+00435e00 A _dport0_rodata_end
+00435e00 A _dport0_rodata_start
+00435e00 A _dram0_rodata_end
+00435e00 A _dram0_rodata_start
+00435e00 A _rodata_start
+00435e10 r __func__$4620_15_2
+00435eb0 r __func__$4445_1_5
+00435ec0 r __func__$4497_9_4
+00435ed0 r __func__$4703_35_2
+00435ef0 r nv_config_legacy_38
+00435fb0 R Mcc_Profile_DispatchEntries	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:234
+00436040 r wlan_socket_DispatchEntries_patch_87
+00436050 r __func__$18350_31_4
+00436070 r __FUNCTION__$17333_19_7
+00436090 r __func__$21777_68_3
+004360b0 r __func__$4340_5_3
+004360c0 r __func__$18545_39_4
+004360f0 r tgt11aPowerTable_2_52
+00436140 r __FUNCTION__$16126_15_2
+00436160 r __FUNCTION__$16171_16_4
+00436170 r __FUNCTION__$16331_17_3
+00436e70 A __XT_EXCEPTION_TABLE__
+00436e70 A _bss_table_start
+00436e78 A _bss_table_end
+00436e78 A _dport0_data_end
+00436e78 A _dport0_data_start
+00436e78 A _dram0_data_end
+00436e78 A _dram0_data_start
+00436e78 A _rodata_end
+00436e80 D ModeEventFlag	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:8
+00436e80 A _data_start
+00436e90 D uart_msg_table	/home/gree/QCA_Project/demos/sdk_gree/uart.c:27
+00436ee0 D udp_msg_table	/home/gree/QCA_Project/demos/sdk_gree/network.c:24
+00436f10 D tcp_msg_table	/home/gree/QCA_Project/demos/sdk_gree/network.c:31
+00436fa0 d otaOffset_29
+00436fb0 D ota_msg_table	/home/gree/QCA_Project/demos/sdk_gree/ota.c:8
+00436fe0 D P4	/home/gree/QCA_Project/demos/sdk_gree/rf.c:27
+00436fe4 D nv_config_mio_quad	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_nvram.c:61
+00437008 d spi_config_legacy_33
+00437018 D is_user_reconnect	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:19
+0043701c D wlanDbgMod	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:14
+00437020 D qcom_sta_wlan_reconnect_next_milestone	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:17
+00437024 D soselect_internal_api	/root/3.1/fc.p4/target/src/domain/../../../include/qcom/select_internal.h:82
+00437040 d nRetry2PerLookup$14074_15_22
+00437068 D gDelayBeforeTbtt	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:39
+0043706c D gMccProfile	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:80
+00437070 D g_tbtt_offset	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:81
+00437074 d Mcc_Profile_Commands_70
+00437084 D wps_protect	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:23
+00437088 d patch_WmiMiscCommands_56
+00437098 d IOE_Power_Commands_57
+004370a8 d P2P_FW_Misc_Commands_58
+004370b8 D patch_WmiMiscDispatchEntries	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_wmi_patch.c:134
+004370c0 D P2P_FW_Misc_DispatchEntries	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_wmi_patch.c:156
+004370c8 D IOE_Power_DispatchEntries	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_wmi_patch.c:180
+004370d0 d ANTDivWmiCmdTbl_43
+004370e0 d ANTDivDispatchEntries_55
+004370f0 D local_dhc_hostname	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:65
+00437114 d wlan_socket_cmd_tbl_patch_52
+00437124 D ip_tps	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/timeouts_patch.c:42
+00437126 D resync_iniche	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/timeouts_patch.c:45
+00437130 D patch_freq_bands	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:157
+00437168 D cdr_host_handler
+00437170 D _tx_thread_system_state	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:406
+00437180 D _tx_version_id	/tmp/components/rel/threadx.ioe/5.6/tx_port.h:543
+004371f0 D g_UartSerpIndirectionTable	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp_internal.h:124
+00437230 D g_Uart1DefaultPins	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:39
+00437250 D g_Uart0DefaultPins	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:24
+00437270 D g_Uart2DefaultPins	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:56
+00437290 d uart_print_id_34
+00437294 D dnsclnt_internal_api	/root/3.1/fc.p4/target/src/ipstack/dns/../h/dns.h:294
+0043731c D dnsids	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:76
+00437320 D dns_trys	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:110
+00437324 D dns_firsttry	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:109
+00437328 D dnsserv_api	/root/3.1/fc.p4/target/src/ipstack/dns/../h/dns.h:544
+00437344 D cdr_bgr_handler	/root/3.1/fc.p4/target/src/domain/cdr_bgr.c:27
+00437350 D tgt11pHalfPowerTable	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:428
+00437370 D tgt11pQuarterPowerTable	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:444
+00437390 D rfModeArray	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_phy_patch.c:59
+004373b0 D antdivApiIndirectionTable	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:18
+004373c4 D antdivInternalIndirectionTable	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:27
+004373d8 D wait_for_null	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:69
+004373e0 D g_totalSizeDesired	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:44
+004373f0 D g_coarseLow	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:46
+00437400 D g_coarseHigh	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:45
+00437410 D g_firpwr	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:47
+00437420 D g_m1ThreshLow	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:50
+00437424 D g_m2ThreshLow	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:51
+00437428 D g_m1Thresh	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:52
+0043742c D g_m2Thresh	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:53
+00437430 D g_m2CountThr	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:54
+00437434 D g_m2CountThrLow	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:55
+00437438 D g_weakSigThrCck	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:58
+00437440 D g_cycpwrThr1	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:65
+00437450 d g_firstep_offset_52
+00437460 D snapdata	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:38
+00437468 D g_SerpIndirectionTable	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_internal.h:96
+0043747c D cdr_target_thread_handler	/root/3.1/fc.p4/target/src/domain/cdr_target_thread.c:22
+00437480 D cdr_wmi_handler	/root/3.1/fc.p4/target/src/domain/cdr_wmi.c:21
+00437484 A __XT_EXCEPTION_DESCS_END__
+00437484 A __XT_EXCEPTION_DESCS__
+00437484 A _data_end
+00437490 A _bss_start
+00437490 B tDeviceInfo	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:38
+0043752c B wifi_thread	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:20
+004375f0 B idle_thread	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:21
+004376b4 B rf_thread	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:22
+00437778 B sht_thread	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:23
+0043783c B sock_thread	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:24
+00437900 B ota_thread	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:25
+004379c4 B pool	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:27
+004379f8 B host_thread	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:19
+00437abc B RfEventGroup	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:15
+00437ae4 B ActualRfEventFlag	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:16
+00437ae8 B tThSensorParam	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:17
+00437af0 B ModeEventGroup	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:7
+00437b18 B tNetworkInfo	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:10
+00437b6c B ActualModeEventFlag	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:9
+00437b70 B sCount	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:16
+00437b80 B socketInfo	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:15
+00437bc0 b linkStates$4277_1_7
+00437bc1 b pwdError$4278_1_8
+00437bd0 B tWorkUart	/home/gree/QCA_Project/demos/sdk_gree/uart.c:24
+00437c90 B rollCtrlBuf	/home/gree/QCA_Project/demos/sdk_gree/uart.c:23
+00437cc0 B rfCtrlBuf	/home/gree/QCA_Project/demos/sdk_gree/uart.c:22
+00437ce0 B phCtrlBuf	/home/gree/QCA_Project/demos/sdk_gree/uart.c:21
+00437d10 b cur_code_cmp_flag$4220_18_2
+00437d11 b old_code_cmp_flag$4219_18_1
+00437d20 B mutex_tsk	/home/gree/QCA_Project/demos/sdk_gree/task_manage.c:16
+00437d60 B thr	/home/gree/QCA_Project/demos/sdk_gree/task_manage.c:11
+00437db0 B thrStatus	/home/gree/QCA_Project/demos/sdk_gree/task_manage.c:13
+00437dd0 B thrStack	/home/gree/QCA_Project/demos/sdk_gree/task_manage.c:12
+00437e20 B taskName	/home/gree/QCA_Project/demos/sdk_gree/task_manage.c:14
+00437e50 b inited$3790_1_1
+00437e54 b taskId$3891_9_6
+00437e58 B cc2500_intr	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:721
+00437e68 b sem_cc2500_85
+00437e6c B cc2500_status	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:19
+00437e6e b cc_reign_cnt$4319_31_1
+00437e70 B tRfHandler	/home/gree/QCA_Project/demos/sdk_gree/rf.c:16
+00437f48 b uMatchHqCount_31
+00437f49 b uMatchJkCount_34
+00437f4a b uMatchJsCount_35
+00437f4b b uCmdHqCount_39
+00437f4c b uCmdJkCount_41
+00437f4d b uCmdJsCount_42
+00437f50 B RF_RSSI_LEV	/home/gree/QCA_Project/demos/sdk_gree/rf.c:23
+00437f54 B P2	/home/gree/QCA_Project/demos/sdk_gree/rf.c:26
+00437f60 B rf_rssi_val	/home/gree/QCA_Project/demos/sdk_gree/rf.c:21
+00437fe0 b rssi_buf$4524_32_2
+00438000 b id$4525_32_3
+00438010 b RSSI_Buf$4556_34_4
+00438090 b rssi_warning_cnt$4558_34_6
+00438091 b rssi_sample_cnt$4557_34_5
+00438092 b pkt_id$4635_24_6
+00438093 b pkt_id$4652_26_4
+00438094 b pkt_id$4669_28_4
+00438098 b tx_queue_ip_config_27
+004380d4 b tx_queue_dns_38
+00438110 b ho_41
+00438124 b ipaddr_43
+00438128 b ping_completed_event_50
+00438150 b message_buff_76
+00438158 b ipptr_42
+00438160 b inited$10593_6_2
+00438170 B spi_config_p	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_spi.c:76
+00438180 B clock_control_reg_save	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_spi.c:25
+00438184 B sdio_reg_save	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_spi.c:28
+00438188 B gpio_enable_reg_save	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_spi.c:26
+0043818c B si_config_reg_save	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_spi.c:27
+00438190 B si_pin_save	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_spi.c:24
+004381a0 B pHTCInstance	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:98
+004381a4 B real_HTC_ReturnBuffers	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:99
+004381a8 B real_HTC_SendMsg	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:100
+004381ac B real_HTC_module_Install	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:101
+004381b0 b argos_feature_enabled_52
+004381b4 B user_start_func	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:722
+004381b8 b config_flag$16029_21_3
+004381bc b rtos_info$16030_21_4
+004381c4 b watchdog_timer_38
+004381e8 B gDeviceContextPtr	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:10
+004381ec B reconnect_timer	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:11
+00438210 B wlanFlagWmiconfigConnect	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:12
+00438211 B wlanFlagWmiconfigScan	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:13
+00438214 B qcom_sta_wlan_reconnect_cnt	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:16
+00438218 B qcom_sta_wlan_reconnect_start_flag	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:18
+0043821c B user_bgrs_htc	/root/3.1/fc.p4/target/apps/lib/hostless/user_apps.c:16
+00438220 B rom_ro_update_connection_state_metric	/root/3.1/fc.p4/target/patch/AR6006/v2/roaming_patch.c:18
+00438224 B rom_ro_bmiss_handler	/root/3.1/fc.p4/target/patch/AR6006/v2/roaming_patch.c:53
+00438230 b pre_q$14227_2_16
+00438234 b pre_prop$14229_2_18
+0043823c b pre_holdtime$14231_2_20
+00438240 b pre_sendtime$14233_2_22
+00438270 b preconn$14226_2_15
+00438274 b pre_chain$14228_2_17
+00438284 b pre_txq$14230_2_19
+00438288 b pre_tid$14232_2_21
+00438290 B crash_dump_patch	/root/3.1/fc.p4/target/patch/AR6006/v2/usbhw_api_patch.c:19
+00438760 B rom_wlan_beacon_current_bss	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_beacon_patch.c:46
+00438764 b temp_tsf_49
+00438768 B rom_wlan_beacon_config	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_beacon_patch.c:116
+00438770 B sta_tbtt	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:82
+00438774 B gMccProfileEnabled	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:22
+00438775 B gMccWpsProtectEnabled	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:21
+00438778 B trafficLevel	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:83
+00438780 B rom_pmSetP2PPowerState	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_power_patch.c:14
+00438784 b g_p2p_ps_poll_delay_34
+00438788 B rom_pmTIMHandler	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_power_patch.c:84
+0043878c b rom_mlme_recv_action_frame_52
+00438790 B rom_mlme_sm_halt	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_umlme_patch.c:468
+00438794 B rom_mlme_recv_assoc_resp	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_umlme_patch.c:32
+00438798 B g_pDirectBuffer	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_wmi_patch.c:65
+0043879c B rom_WMI_Init	/root/3.1/fc.p4/target/patch/AR6006/v2/wmi_svc_patch.c:58
+004387a0 B rom_WMI_AllocEvent	/root/3.1/fc.p4/target/patch/AR6006/v2/wmi_svc_patch.c:184
+004387b0 B dnsrv	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:64
+004387c0 B patch_gDhsClntInfo	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:59
+00439cd8 B strrcl_state	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:60
+00439cd9 B gUDPFramePendingWithHTC	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:134
+00439cdc B rom_ip_demux	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:1695
+00439ce0 B rom_icmprcv	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:2440
+00439ce4 B gu1RecvBuf	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/pktalloc_patch_ioe.c:47
+00439ce5 B gTCPFramePendingWithHTC	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/pktalloc_patch_ioe.c:46
+00439ce6 B gu1MaxRecvBuf	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/pktalloc_patch_ioe.c:48
+00439ce7 B gu1MinRxBuf	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/pktalloc_patch_ioe.c:49
+00439cf0 B sock_layer_initialized	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:79
+00439d00 B sntp_addr	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:46
+00439d14 b fourway_indication_to_host_49
+00439d15 b handshake_retry_counter_52
+00439d18 b prev_last_mic_err_ms_65
+00439d1c B dropline	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:27
+00439d20 B rom_sosetopt	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3930
+00439d24 B rom_sogetopt	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3962
+00439d28 B ROM_TXRX_Init	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/txrx_api_patch.c:590
+00439d30 B patch_wlan_promiscuous_rx_cb	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/txrx_internal_patch.c:44
+00439d34 B patch_wlan_promiscuous_rx_buffer	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/txrx_internal_patch.c:45
+00439d40 B _demo_promisc_mode_frame_buf	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/txrx_internal_patch.c:106
+0043a540 B rom_wmi_set_channel_list_cmd	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wlan_wmi_patch.c:116
+0043a544 B wlan_power_state_val	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wlan_wmi_patch.c:29
+0043a548 B rom_wps_init	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:69
+0043a54c b p2p_pesist_write2flash_119
+0043a550 B eap_state	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:62
+0043a864 B rom_wps_init_attrib	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:72
+0043a868 B rom_wmi_wps_profile_connect	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:68
+0043a86c B rom_wps_build_dev_password_id	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:70
+0043a870 B rom_wps_build_beacon_ie	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:74
+0043a880 b fd_set_inited_34
+0043a890 b fd_array_27
+0043a8d0 B q_fds	/root/3.1/fc.p4/target/src/phost/qcom_select.c:15
+0043a930 B fds	/root/3.1/fc.p4/target/src/phost/qcom_select.c:17
+0043ae10 B _cdr_host_handler
+0043ae24 B _rtos_cond_init
+0043ae28 B _rtos_cond_signal
+0043ae2c B _rtos_cond_wait
+0043ae30 B g_cdr_host_thread_state	/root/3.1/fc.p4/target/src/phost/rtos_threadx.c:75
+0043ae90 b inited_32
+0043ae94 B cdr_msg_pool	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:21
+0043ae98 B cdr_wmi_event_dispatch_handler	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:54
+0043ae9c b is_probe_ssid_56
+0043aea0 B wmi_dev	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:22
+0043aeb0 B current_time	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:161
+0043aec0 B _tx_timer_time_slice	/tmp/components/rel/threadx.ioe/5.6/tx_timer.h:157
+0043aec4 B _tx_timer_expired_time_slice	/tmp/components/rel/threadx.ioe/5.6/tx_timer.h:163
+0043aec8 B _tx_initialize_unused_memory	/tmp/components/rel/threadx.ioe/5.6/tx_initialize.h:139
+0043aed0 B _tx_thread_current_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:379
+0043aed4 B _tx_thread_execute_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:386
+0043aed8 B _tx_thread_highest_priority	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:453
+0043aedc B _tx_thread_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:391
+0043aee0 B _tx_thread_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:396
+0043aee4 B _tx_thread_preempt_disable	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:468
+0043aee8 B _tx_thread_mutex_release	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:474
+0043aeec B _tx_build_options	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:510
+0043aef0 B _tx_thread_system_stack_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:373
+0043aef4 B _tx_thread_priority_maps	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:417
+0043aef8 B _tx_thread_preempted_maps	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:437
+0043af00 B _tx_thread_priority_list	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:461
+0043af80 B g_pUartDevices	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:73
+0043af8c B nvramw_api	/root/3.1/fc.p4/target/apps/lib/../../romexport/AR6002/hw7.2/include/nvram_api.h:368
+0043af90 B spi_nvramw_fns	/root/3.1/fc.p4/target/apps/lib/spi_nvramw.c:140
+0043afb0 b Console_serial_restored_32
+0043afb4 b uart_init_44
+0043afb8 b Console_uart_info_33
+0043afc0 b uart_handle_39
+0043afd0 b uart_data_51
+0043afe0 B user_app_state1	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_event.c:11
+0043afe4 B g_wifi_state	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_event.c:11
+0043aff0 B is_i2c_init	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_i2c.c:19
+0043b000 b i2c_set_pin_33
+0043b010 B dnsc_active	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:87
+0043b014 B dnsc_requests	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:80
+0043b018 B numdnssvrs	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:112
+0043b01c B dns_qs	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:72
+0043b020 B dnsc_tmos	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:83
+0043b024 B dnsc_retry	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:84
+0043b028 B dnc_next_tmo	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:89
+0043b02c B dnsc_errors	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:79
+0043b030 B dnsc_replies	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:81
+0043b034 B dnsc_good	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:82
+0043b038 b dnc_addr_90
+0043b03c b dnc_hostent_92
+0043b050 B dnsc_updates	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:74
+0043b060 B dns_servers	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:113
+0043b0a0 b dnc_TXTptrs_80
+0043b0e0 b dnc_name_91
+0043b100 b dnc_addrptrs_93
+0043b110 B aPendList	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:101
+0043b1f0 B dns_server_conn	/root/3.1/fc.p4/target/src/ipstack/dns/dnssrvr.c:66
+0043b1f4 B dns6_server_conn	/root/3.1/fc.p4/target/src/ipstack/dns/dnssrvr.c:67
+0043b200 B gDnsSrvrList	/root/3.1/fc.p4/target/src/ipstack/dns/dnssrvr.c:60
+0043b778 B cdr_api	/root/3.1/fc.p4/target/src/domain/cdr.c:109
+0043b784 B cdr_req_debug	/root/3.1/fc.p4/target/src/domain/cdr_bgr.c:146
+0043b788 B g_cdr_bgr_state	/root/3.1/fc.p4/target/src/domain/cdr_bgr.c:32
+0043b78c B _cdr_bgr_handler	/root/3.1/fc.p4/target/src/domain/cdr_bgr.c:26
+0043b7a0 b cdr_timer_inited_32
+0043b7a4 B qca_selcb_list	/root/3.1/fc.p4/target/src/domain/cdr_select_handler.c:25
+0043b7b0 B cdr_timer	/root/3.1/fc.p4/target/src/domain/cdr_select_handler.c:33
+0043b970 b cdr_sock_context_35
+0043baf0 B tx_alloc_pend_list	/root/3.1/fc.p4/target/src/domain/tx_alloc_handle.c:23
+0043baf4 B tx_block_cnt	/root/3.1/fc.p4/target/src/domain/tx_alloc_handle.c:24
+0043baf8 B htc_get	/root/3.1/fc.p4/target/src/domain/tx_buffer.c:29
+0043bafc B htc_put	/root/3.1/fc.p4/target/src/domain/tx_buffer.c:23
+0043bb00 B dset_api_ex	/root/3.1/fc.p4/target/src/misc/dset/../../../romexport/AR6002/hw7.2/include/dset_api.h:364
+0043bb38 b gpEepromStruct_35
+0043bb3c B ROM_ar6000EepromSetSpurMitigation	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:109
+0043bb40 B ROM_ar6000SetPowerPerRateTable	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:479
+0043bb44 B pPaprdStruct	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:14
+0043bb48 b tx_gain_table_change_34
+0043bb4c b g_backup_restore_table_35
+0043bcb4 B paprdCtrl2	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:15
+0043bcb8 b rom_ar6000PaprdTrainingStatus_45
+0043bcbc b rom_ar6000PaprdCalibrationSM_49
+0043bcc0 B paprd_training_count_ch0	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:27
+0043bcc2 B paprd_training_count_ch1	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:27
+0043bcc4 b rom_ar6000PaprdCheckRetrain_58
+0043bcc8 b rom_ar6000PaprdHwDisable_61
+0043bccc B rom_ar6000PaprdXmitTrainingFrame	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:1140
+0043bcd0 b seqNum$14093_13_9
+0043bcd4 B gpPhyStruct	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_phy_patch.c:14
+0043bcd8 B ar6000SetChannelFractionN	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_phy_patch.c:16
+0043bcdc B ROM_ar6000WriteMacBBRegs	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_phy_patch.c:70
+0043bce0 b gpResetStruct_32
+0043bce4 b rom_ar6000NfInitCal_33
+0043bce8 B rom_MAC_DMA_AllocBuffer	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6004_mac_dma_patch.c:49
+0043bcec b g_antcomb_33
+0043bd34 B g_ant_div_reply	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:10
+0043bd70 B one_shot_noa_enabled	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:59
+0043bd74 B rom_co_op_end	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:654
+0043bd78 B ps_poll_enabled	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:65
+0043bd7c B rom_co_chanop_state_tx_drain	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:700
+0043bd80 B rom_co_init	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:1750
+0043bd90 B wait_for_cts_timer	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:61
+0043bdb0 B wait_for_null_timer	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:70
+0043bdd0 b null_event_flag$17423_27_12
+0043bdd4 b op_pending$17826_32_12
+0043bdd8 b recursive$17827_32_13
+0043bddc B rom_patch_Process_Data_Frame	/root/3.1/fc.p4/target/patch/AR6006/v2/ieee80211_input_patch.c:21
+0043bde0 B rom_ProcessSeqNum	/root/3.1/fc.p4/target/patch/AR6006/v2/ieee80211_input_patch.c:33
+0043bdf0 B rom_ar6000EnableAni	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:535
+0043bdf4 b g_ani_current_status_64
+0043bdf8 B rom_ar6000AniControl	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:72
+0043be00 B g_firstep	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:62
+0043be10 b bb_desired_sig$14258_7_2
+0043be14 b bb_find_signal$14260_7_4
+0043be18 b bb_sfcorr$14262_7_6
+0043be1c b bb_bbb_sig_detect$14264_7_8
+0043be20 b bb_find_low_signal$14266_7_10
+0043be24 b bb_agc_addr$14259_7_3
+0043be28 b bb_self_corr_low$14261_7_5
+0043be2c b bb_ext_chan_scorr_thr$14263_7_7
+0043be30 b bb_timing_control_5$14265_7_9
+0043be34 b bb_ext_chan_power_thr2$14267_7_11
+0043be38 b athbufSpace_62
+0043be3c b rxbufSpace_63
+0043be40 B txbufSpace	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ar6004_mac_dma_patch.c:49
+0043be44 b mgtbufSpace_67
+0043be48 b smmgtbufSpace_68
+0043be4c b rmbufSpace$15515_18_15
+0043be50 b dhcp_para_32
+0043be60 b dnsrv_39
+0043be64 B disable_dhcp_server	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcpsrvr_patch.c:42
+0043be68 b rtos_info$11764_8_1
+0043be70 b cache_exp_55
+0043be74 B arpcache	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:28
+0043be78 B set_ph_cmd	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/strcl_patch_ioe.c:47
+0043bedc B pSRp2pCxt	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/strcl_patch_ioe.c:33
+0043bee0 B recall_state	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/strcl_patch_ioe.c:46
+0043bee4 B g_pSerPManager	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:20
+0043bee8 B _tx_semaphore_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_semaphore.h:157
+0043beec B _tx_semaphore_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_semaphore.h:162
+0043bef0 B _tx_queue_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_queue.h:180
+0043bef4 B _tx_queue_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_queue.h:185
+0043bef8 B _tx_event_flags_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags.h:162
+0043befc B _tx_event_flags_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags.h:167
+0043bf00 B _tx_block_pool_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_block_pool.h:159
+0043bf04 B _tx_block_pool_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_block_pool.h:164
+0043bf08 B _tx_byte_pool_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_byte_pool.h:171
+0043bf0c B _tx_byte_pool_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_byte_pool.h:176
+0043bf10 B _tx_mutex_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_mutex.h:166
+0043bf14 B _tx_mutex_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_mutex.h:171
+0043bf18 B qcom_wps_connect_flag	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wps.c:11
+0043bf1c B qcom_wps_started	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wps.c:10
+0043bf20 b wps_enable$4467_12_2
+0043bf24 B g_cdr_target_thread_state	/root/3.1/fc.p4/target/src/domain/cdr_target_thread.c:34
+0043bf78 B _cdr_target_thread_handler	/root/3.1/fc.p4/target/src/domain/cdr_target_thread.c:21
+0043bf8c B g_cdr_wmi_state	/root/3.1/fc.p4/target/src/domain/cdr_wmi.c:26
+0043bf90 B _cdr_wmi_handler	/root/3.1/fc.p4/target/src/domain/cdr_wmi.c:20
+0043bfa4 A _bss_end
+0043bfa4 B _end
+0043bfa4 B _stack_sentry
+00940990 A athos_unblock_all_intrlvl
+009436f0 A _cvt
+00943770 A cmnos_fmt_next_char
+00943c5c A cmnos_printf
+009445dc A sscanf
+00946500 A ar6000AniGetListenTime
+00949f14 A ar6000GetTsf32
+0094f2cc A fbin2freq
+0094fc08 A interpolate_round
+0094fc4c A getLowerUpperIndex
+00956194 A _spi_wait_part_done
+00956398 A _multiIO_spi_wait_part_done
+0095668c A spi_nvramr_module_install
+00959be8 A WMIRecvMessageHandler
+00959dac A WMIServiceConnect
+0095dd48 A _suppl_auth_init_auth
+0095e1f8 A _suppl_process_sent_m2
+00960074 A wlan_main
+00960704 A _wlan_dev_no_ap_mode_dev
+009607f8 A _dev_start_conn_timeout
+00979698 A IsRxHeadBuf
+0097a7e4 A _tsf_timer_now_function
+00988118 A CO_UPDATE_START_TIME
+00988134 A CO_SET_POWERMODE
+0098819c A CO_SET_STATE
+009881d0 A CO_CLEAR_STATE
+0098f894 A _hs_compl_evt
+0098f92c A _form_eapol_frame
+009953bc A _P2P_wait_auth_frame
+009a5fb8 A _storerecall_host_ready_cmd
+009a6250 A _STRRCL_Init
+009b2250 A _dispatch_wlan_socket_cmds
+009b9e50 A _p2p_fw_go_timeout
+009ba5e4 A _p2p_go_complete
+009bbcec A p2p_is_channel_valid
+009bcb28 A p2p_go_schedules_tsf_timeout
+009cabac A lpl_module_attach
+009cd1fc A _ip_init
+009cfdb0 A _inet_pton
+009d0b44 A _soisconnecting
+009d0bb8 A _soisdisconnecting
+009d0bd8 A _soisdisconnected
+009d0d88 A _sbwakeup
+009d58a0 A _dhc_release
+009d7ddc A _inet_timer
+009d804c A xthal_window_spill_nw
+009d8160 A xthal_window_spill
+009d8bb8 A strcmp
+009d8ce4 A strcpy
+009d8d74 A strlen
+009d9dcc A memcmp
+009d9e68 A memcpy
+009da134 A memset
+009fa000 A _lit4_end
+009fa000 A _lit4_start
+009fa000 A _rom_literal_start
+00a00000 A _dport0_literal_end
+00a00000 A _dport0_literal_start
+00a00000 A _literals_start
+00a00000 A _rom_literal_end
+00a01734 A _dram0_literal_end
+00a01734 A _dram0_literal_start
+00a01734 A _literals_end
+00a02800 A _iram0_text_end
+00a02800 A _iram0_text_start
+00a02800 T _stext	/home/gree/QCA_Project/demos/sdk_gree/app_start.c:13
+00a02800 A _text_start
+00a02800 T app_start	/home/gree/QCA_Project/demos/sdk_gree/app_start.c:13
+00a0280c T shell_host_entry	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:41
+00a028bc T user_main	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:60
+00a02908 t Idle_Mode_Process	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:73
+00a029a8 t Uart_Send_Handler	/home/gree/QCA_Project/demos/sdk_gree/sdk_shell.c:114
+00a029d4 T sht_init	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:61
+00a029fc T delay_10us	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:82
+00a02a08 T delay_20us	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:95
+00a02a14 T sht_trans_start	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:121
+00a02a68 T sht_write_byte	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:192
+00a02af4 T sht_read_byte	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:254
+00a02b64 T sht_measure_temp	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:305
+00a02bb0 T sht_measure_humi	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:345
+00a02bfc T sht_filter_data	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:383
+00a02c58 T sht_handler	/home/gree/QCA_Project/demos/sdk_gree/SHT10.c:421
+00a02e34 T Wifi_Mode_Process	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:19
+00a02ff0 T Network_Socket_Process	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:145
+00a03150 T Udp_Handler	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:233
+00a031b8 T Tcp_Accept_Handler	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:261
+00a03230 T Tcp_Handler	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:292
+00a0332c T Route_Scan	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:354
+00a03380 T Network_Info_Get	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:376
+00a033e4 T Udp_Socket_Init	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:398
+00a03430 T Close_All_Socket	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:422
+00a0345c T Tcp_Socket_Init	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:436
+00a034c4 T net_comm_connectap	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:484
+00a0350c T net_comm_setap	/home/gree/QCA_Project/demos/sdk_gree/smartConfig.c:525
+00a03570 T uart_send_process	/home/gree/QCA_Project/demos/sdk_gree/uart.c:46
+00a035dc T uart_build_ctrl_req	/home/gree/QCA_Project/demos/sdk_gree/uart.c:74
+00a036ac T uart_build_set_req	/home/gree/QCA_Project/demos/sdk_gree/uart.c:117
+00a03710 T uart_receive_proc	/home/gree/QCA_Project/demos/sdk_gree/uart.c:151
+00a03748 T uart_rec_ctrl_rsp	/home/gree/QCA_Project/demos/sdk_gree/uart.c:184
+00a0376c T uart_rec_set_rsp	/home/gree/QCA_Project/demos/sdk_gree/uart.c:199
+00a037b4 T uart_verify_checksum	/home/gree/QCA_Project/demos/sdk_gree/uart.c:226
+00a037ec T uart_init	/home/gree/QCA_Project/demos/sdk_gree/uart.c:286
+00a03878 T task_init	/home/gree/QCA_Project/demos/sdk_gree/task_manage.c:31
+00a038b8 T get_empty_task_index	/home/gree/QCA_Project/demos/sdk_gree/task_manage.c:46
+00a038d4 T free_task_mem	/home/gree/QCA_Project/demos/sdk_gree/task_manage.c:73
+00a03918 T qcom_task_del	/home/gree/QCA_Project/demos/sdk_gree/task_manage.c:104
+00a03948 T qcom_task_start	/home/gree/QCA_Project/demos/sdk_gree/task_manage.c:122
+00a03a68 T cc2500_us_delay	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:62
+00a03a74 T cc2500_read_single_reg	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:88
+00a03aa8 T cc2500_write_single_reg	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:113
+00a03ad4 T cc2500_get_marc_state	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:218
+00a03b04 T cc2500_get_rxBytes	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:243
+00a03b34 T cc2500_get_rssi	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:270
+00a03b64 T cc2500_get_channl_num	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:295
+00a03b74 T cc2500_write_channl_num	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:312
+00a03b90 T cc2500_write_PA_tbl	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:361
+00a03bb4 T cc2500_read_rxFIFO	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:382
+00a03bf8 T cc2500_write_txFIFO	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:421
+00a03c44 T cc2500_strobe_cmd	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:463
+00a03c68 T cc2500_manual_reset	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:503
+00a03d14 T cc2500_set_config	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:579
+00a03e58 T cc2500_device_init	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:676
+00a03ea4 T k_sem_create	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:727
+00a03ebc T k_sem_post	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:741
+00a03ecc T k_sem_take	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:746
+00a03ee4 T cc2500_intr_init	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:751
+00a03f18 T cc2500_intr_callback	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:771
+00a03f50 T cc2500_receive_package	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:793
+00a03fb4 T cc2500_send_package	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:833
+00a04044 T cc2500_handler	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:911
+00a04084 T cc2500_marc_stus_check	/home/gree/QCA_Project/demos/sdk_gree/cc2500.c:936
+00a040a0 T device_information_load	/home/gree/QCA_Project/demos/sdk_gree/config.c:5
+00a040d8 T device_information_set	/home/gree/QCA_Project/demos/sdk_gree/config.c:26
+00a040f4 T default_information_set	/home/gree/QCA_Project/demos/sdk_gree/config.c:48
+00a041cc T tcp_rec_ctrl_req	/home/gree/QCA_Project/demos/sdk_gree/network.c:48
+00a041fc T tcp_rec_set_req	/home/gree/QCA_Project/demos/sdk_gree/network.c:69
+00a04250 T tcp_build_ctrl_rsp	/home/gree/QCA_Project/demos/sdk_gree/network.c:92
+00a042c8 T tcp_build_stus_rsp	/home/gree/QCA_Project/demos/sdk_gree/network.c:121
+00a04340 T tcp_build_set_rsp	/home/gree/QCA_Project/demos/sdk_gree/network.c:148
+00a04380 T tcp_rec_login_req	/home/gree/QCA_Project/demos/sdk_gree/network.c:172
+00a044a0 T tcp_rec_acname_req	/home/gree/QCA_Project/demos/sdk_gree/network.c:221
+00a04518 T tcp_rec_usrkey_req	/home/gree/QCA_Project/demos/sdk_gree/network.c:247
+00a0458c T tcp_rec_netpara_req	/home/gree/QCA_Project/demos/sdk_gree/network.c:275
+00a04628 T tcp_rec_restore_req	/home/gree/QCA_Project/demos/sdk_gree/network.c:328
+00a04640 T tcp_build_login_rsp	/home/gree/QCA_Project/demos/sdk_gree/network.c:339
+00a04774 T tcp_build_logout_rsp	/home/gree/QCA_Project/demos/sdk_gree/network.c:394
+00a047a4 T tcp_build_acname_rsp	/home/gree/QCA_Project/demos/sdk_gree/network.c:410
+00a047e4 T tcp_build_usrkey_rsp	/home/gree/QCA_Project/demos/sdk_gree/network.c:433
+00a0481c T tcp_build_netpara_rsp	/home/gree/QCA_Project/demos/sdk_gree/network.c:453
+00a04854 T tcp_build_restore_rsp	/home/gree/QCA_Project/demos/sdk_gree/network.c:473
+00a0488c T udp_build_bcast_rsp	/home/gree/QCA_Project/demos/sdk_gree/network.c:501
+00a049a4 T msgfrm_verify_checksum	/home/gree/QCA_Project/demos/sdk_gree/network.c:575
+00a049dc T ota_decode_chksum	/home/gree/QCA_Project/demos/sdk_gree/ota.c:16
+00a04a14 T tcp_rec_ota_begin_req	/home/gree/QCA_Project/demos/sdk_gree/ota.c:55
+00a04a28 T tcp_rec_ota_begin_rsp	/home/gree/QCA_Project/demos/sdk_gree/ota.c:75
+00a04a5c T tcp_rec_ota_handler_req	/home/gree/QCA_Project/demos/sdk_gree/ota.c:86
+00a04a88 T tcp_rec_ota_handler_rsp	/home/gree/QCA_Project/demos/sdk_gree/ota.c:104
+00a04ab8 T tcp_rec_ota_end_req	/home/gree/QCA_Project/demos/sdk_gree/ota.c:115
+00a04ad8 T tcp_rec_ota_end_rsp	/home/gree/QCA_Project/demos/sdk_gree/ota.c:135
+00a04b08 T Ota_Socket_Init	/home/gree/QCA_Project/demos/sdk_gree/ota.c:146
+00a04b38 T Ota_Connection_Handler	/home/gree/QCA_Project/demos/sdk_gree/ota.c:158
+00a04c64 T Ota_Handle_Process	/home/gree/QCA_Project/demos/sdk_gree/ota.c:223
+00a04cb4 T rf_rssi_buf_filter	/home/gree/QCA_Project/demos/sdk_gree/rf.c:31
+00a04d0c T receive_match_timeout	/home/gree/QCA_Project/demos/sdk_gree/rf.c:190
+00a04db4 T receive_cmd_timeout	/home/gree/QCA_Project/demos/sdk_gree/rf.c:229
+00a04e60 T restart_cmd_timer	/home/gree/QCA_Project/demos/sdk_gree/rf.c:269
+00a04ea8 T restart_match_timer	/home/gree/QCA_Project/demos/sdk_gree/rf.c:281
+00a04ef0 T rf_send_match_frame	/home/gree/QCA_Project/demos/sdk_gree/rf.c:293
+00a04f14 T rf_send_ctrl_frame	/home/gree/QCA_Project/demos/sdk_gree/rf.c:299
+00a04f38 T rf_rec_proc	/home/gree/QCA_Project/demos/sdk_gree/rf.c:305
+00a05184 T rf_id_compare	/home/gree/QCA_Project/demos/sdk_gree/rf.c:442
+00a051b0 T rf_party_rssi_evalu	/home/gree/QCA_Project/demos/sdk_gree/rf.c:463
+00a0522c T rf_chanl_rssi_evalu	/home/gree/QCA_Project/demos/sdk_gree/rf.c:509
+00a052b0 T rf_hop_channel2_next	/home/gree/QCA_Project/demos/sdk_gree/rf.c:570
+00a052e8 T rec_rfid_swop_req	/home/gree/QCA_Project/demos/sdk_gree/rf.c:597
+00a0530c T rec_data_ctrl_req	/home/gree/QCA_Project/demos/sdk_gree/rf.c:624
+00a0533c T rec_stus_qury_req	/home/gree/QCA_Project/demos/sdk_gree/rf.c:647
+00a05380 T rec_online_chk_req	/home/gree/QCA_Project/demos/sdk_gree/rf.c:688
+00a053a8 T rec_single_party_req	/home/gree/QCA_Project/demos/sdk_gree/rf.c:719
+00a053e4 T build_sys_party_rsp	/home/gree/QCA_Project/demos/sdk_gree/rf.c:748
+00a05448 T build_rfid_swop_rsp	/home/gree/QCA_Project/demos/sdk_gree/rf.c:786
+00a05488 T build_ctrl_cmd_send	/home/gree/QCA_Project/demos/sdk_gree/rf.c:807
+00a054d8 T build_data_ctrl_rsp	/home/gree/QCA_Project/demos/sdk_gree/rf.c:841
+00a05528 T build_stus_qury_rsp	/home/gree/QCA_Project/demos/sdk_gree/rf.c:874
+00a05578 T build_online_chk_rsp	/home/gree/QCA_Project/demos/sdk_gree/rf.c:907
+00a055b8 T build_single_party_rsp	/home/gree/QCA_Project/demos/sdk_gree/rf.c:937
+00a055f8 t __addsf3_aux	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-sf.S:72
+00a05614 T __addsf3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-sf.S:93
+00a056dc t __subsf3_aux	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-sf.S:273
+00a056fc T __subsf3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-sf.S:295
+00a057fc T __fixsfsi	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-sf.S:1348
+00a0583c T __fixunssfsi	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-sf.S:1469
+00a05894 t __adddf3_aux	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-df.S:1320
+00a058b4 T __adddf3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-df.S:1343
+00a059e4 t __subdf3_aux	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-df.S:1575
+00a05a08 T __subdf3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-df.S:1598
+00a05b90 t __muldf3_aux	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-df.S:1871
+00a05c70 T __muldf3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-df.S:1996
+00a05d8c T __truncdfsf2	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-df.S:3483
+00a05e30 T __extendsfdf2	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-df.S:3588
+00a05e94 T qcom_ap_start	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_ap.c:13
+00a05f5c T qcom_ap_set_beacon_interval	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_ap.c:100
+00a05f74 T qcom_ap_set_flag	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_ap.c:141
+00a05f84 T _qcom_start_ap	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_ap.c:149
+00a060cc T qcom_gpio_config_pin	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_gpio.c:17
+00a060e8 T qcom_gpio_set_pin_dir	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_gpio.c:54
+00a0612c T qcom_gpio_set_pin_high	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_gpio.c:73
+00a0613c T qcom_gpio_set_pin_low	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_gpio.c:78
+00a0614c T qcom_gpio_get_pin_value	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_gpio.c:83
+00a06160 T qcom_gpio_register_pin_interrupt	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_gpio.c:88
+00a06170 T qcom_gpio_set_interrupt_mode	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_gpio.c:98
+00a06184 T qcom_gpio_start_interrupt	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_gpio.c:103
+00a06194 T mem_alloc	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_mem.c:17
+00a061a8 T mem_free	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_mem.c:31
+00a061bc T mem_heap_get_free_size	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_mem.c:78
+00a061f8 T qcom_mac_get	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_misc.c:12
+00a06210 T _qcom_ipconfig	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_network.c:22
+00a062a8 T qcom_ip_address_set	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_network.c:137
+00a062c4 T qcom_ip_address_get	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_network.c:144
+00a062e4 T qcom_dhcpc_enable	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_network.c:217
+00a062fc T qcom_dhcps_enable	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_network.c:225
+00a06314 T qcom_dhcps_set_pool	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_network.c:232
+00a06328 T qcom_dnsc_enable	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_network.c:257
+00a06338 T qcom_wmi_event_socket_process	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_network.c:296
+00a063ec t _qcom_board_type_get	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_nvram.c:77
+00a063fc t _qcom_board_cfg_get	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_nvram.c:87
+00a0640c t _qcom_nvram_mode_get	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_nvram.c:95
+00a06434 t _qcom_nvram_size_get	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_nvram.c:117
+00a06464 t _qcom_nvram_init	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_nvram.c:137
+00a064fc t _qcom_nvram_fini	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_nvram.c:185
+00a0650c T qcom_nvram_read	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_nvram.c:194
+00a0652c T qcom_nvram_erase	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_nvram.c:206
+00a06574 T qcom_nvram_write	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_nvram.c:228
+00a065ac T qcom_scan_set_mode	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:10
+00a065cc T qcom_scan_bss_start	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:37
+00a06618 T qcom_scan_get_bss_number	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:75
+00a06634 T qcom_scan_get_bss_info	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:87
+00a0665c t _qcom_util_freq2ieee	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:109
+00a066a8 t _qcom_wpa_auth_parse	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:137
+00a066ec t _qcom_wpa_cipher_parse	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:155
+00a06754 t _qcom_rsn_cipher_parse	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:181
+00a067bc t _qcom_rsn_auth_parse	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:206
+00a06800 t _qcom_security_ie_parse	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:224
+00a068e0 t _qcom_parse_bss_info	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:276
+00a06b4c T _qcom_record_bss_info	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:448
+00a06c10 T _qcom_bss_scan_result_show	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:514
+00a06e20 T _qcom_get_bss_entry_by_ssid	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_scan.c:592
+00a06ea4 T qcom_sec_set_auth_mode	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_sec.c:123
+00a06eb4 T qcom_sec_set_encrypt_mode	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_sec.c:142
+00a06ec4 T qcom_sec_set_passphrase	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_sec.c:161
+00a06ef8 T qcom_spi_init	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_spi.c:86
+00a07078 T qcom_spi_fini	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_spi.c:199
+00a070d8 T _qcom_spi_wait_done	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_spi.c:216
+00a070fc T qcom_spi_request	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_spi.c:233
+00a0713c T qcom_spi_response	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_spi.c:254
+00a07174 T qcom_sta_connect_with_scan	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_sta.c:10
+00a071a4 T qcom_sta_reconnect_start	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_sta.c:124
+00a071e4 T qcom_sta_reconnect_stop	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_sta.c:138
+00a0720c T _qcom_connect_ap	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_sta.c:180
+00a0747c T _qcom_connect_ap_scaned	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_sta.c:351
+00a0756c T _qcom_sta_wlan_reconnect_timer_handler	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_sta.c:436
+00a075c8 t A_INIT	/root/3.1/fc.p4/target/apps/lib/hostless/../../../romexport/AR6002/hw7.2/include/os/athos_api.h:745
+00a07608 T _qcom_wmi_commands	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:113
+00a07708 T _qcom_HTC_SendMsg	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:265
+00a07724 T _qcom_HTC_SendMsg2	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:277
+00a07748 T _qcom_HTC_Housekeeping	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:291
+00a07760 T _qcom_HTC_module_Install	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:299
+00a07780 T _qcom_HTCSetupComplete	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:314
+00a077bc T _qcom_HTC_Postprocess	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:331
+00a07860 T _qcom_pre_start	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:389
+00a078e4 T _qcom_pre_init	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:419
+00a0791c T _qcom_init_ipstack	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:448
+00a0794c T _qcom_pre_patch	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:457
+00a07978 T _qcom_host_less_boot_config	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:479
+00a07a64 T _qcom_app_start	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:726
+00a07a74 T qcom_sys_start	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:736
+00a07acc T qcom_sys_reset	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:775
+00a07b08 T us_delay	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_time.c:40
+00a07b1c T qcom_timer_init	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_timer.c:14
+00a07b38 T qcom_timer_start	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_timer.c:23
+00a07b50 T qcom_timer_stop	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_timer.c:30
+00a07b64 T qcom_timer_delete	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_timer.c:36
+00a07b78 T sleep_timeout	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_timer.c:42
+00a07b84 T qcom_thread_msleep	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_timer.c:47
+00a07bb0 T qcom_uart_init	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_uart.c:15
+00a07bbc T qcom_set_uart_config	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_uart.c:63
+00a07c30 T qcom_uart_open	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_uart.c:92
+00a07c40 T qcom_uart_read	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_uart.c:100
+00a07c54 T qcom_uart_write	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_uart.c:104
+00a07c68 T printf	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_utils.c:55
+00a07cbc t watchdog_feed	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wdt.c:14
+00a07cd4 T qcom_watchdog_feed	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wdt.c:20
+00a07cec T sys_assfail	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wdt.c:27
+00a07d74 T watchdog_enable	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wdt.c:69
+00a07dcc T watchdog_disable	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wdt.c:107
+00a07dec T qcom_watchdog	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wdt.c:116
+00a07e3c T qcom_op_set_mode	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:21
+00a07ea8 T qcom_op_get_mode	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:52
+00a07ec4 T qcom_disconnect	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:64
+00a07edc T qcom_set_country_code	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:73
+00a07f04 T qcom_get_state	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:303
+00a07f20 T qcom_init_dev_context	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wlan.c:315
+00a07f64 T patch_sock_selscan	/root/3.1/fc.p4/target/apps/lib/hostless/select_patch.c:29
+00a08024 T uart_select_patch_install	/root/3.1/fc.p4/target/apps/lib/hostless/select_patch.c:89
+00a08034 T qcom_sta_register_callbacks	/root/3.1/fc.p4/target/apps/lib/hostless/user_apps.c:32
+00a0805c T user_pre_init	/root/3.1/fc.p4/target/apps/lib/hostless/user_apps.c:48
+00a08094 T _sock_selscan	/root/3.1/fc.p4/target/src/domain/priv_soselect.c:55
+00a0810c T _sock_select	/root/3.1/fc.p4/target/src/domain/priv_soselect.c:102
+00a081b0 T install_patches	/root/3.1/fc.p4/target/patch/AR6006/v2/install_patches.c:16
+00a08220 T patch_rcUpdate_HT	/root/3.1/fc.p4/target/patch/AR6006/v2/ratectrl_patch.c:27
+00a08728 T ratectrl_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/ratectrl_patch.c:426
+00a08738 T patch_ro_update_connection_state_metric	/root/3.1/fc.p4/target/patch/AR6006/v2/roaming_patch.c:23
+00a08754 T wlan_bmiss_send_probe	/root/3.1/fc.p4/target/patch/AR6006/v2/roaming_patch.c:33
+00a087b8 T patch_ro_bmiss_handler	/root/3.1/fc.p4/target/patch/AR6006/v2/roaming_patch.c:57
+00a087f8 T roaming_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/roaming_patch.c:83
+00a08818 T patch_tx_aggr_add_to_hold_q	/root/3.1/fc.p4/target/patch/AR6006/v2/tx_aggr_patch.c:34
+00a08b00 T patch_tx_aggr_install	/root/3.1/fc.p4/target/patch/AR6006/v2/tx_aggr_patch.c:191
+00a08b10 T patch_usb_assert_wait_func	/root/3.1/fc.p4/target/patch/AR6006/v2/usbhw_api_patch.c:28
+00a08cc0 T patch_usbpowersave	/root/3.1/fc.p4/target/patch/AR6006/v2/usbhw_api_patch.c:153
+00a08d04 T whal_install_patches	/root/3.1/fc.p4/target/patch/AR6006/v2/whal_install_patches.c:14
+00a08d20 T patch_ap_profile_commit	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_ap_patch.c:31
+00a08fb0 T wlan_ap_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_ap_patch.c:186
+00a08fc0 T patch_wlan_beacon_current_bss	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_beacon_patch.c:55
+00a090b0 T patch_wlan_dtimsync_handler	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_beacon_patch.c:100
+00a090d8 T patch_wlan_beacon_config	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_beacon_patch.c:118
+00a09110 T patch_wlan_beacon_probe_recv_mgmt	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_beacon_patch.c:137
+00a0926c T wlan_beacon_install_patch	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_beacon_patch.c:240
+00a0929c T wlan_dev_mcc_adjust	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:88
+00a09398 T patch_dev_load_monitor_timeout	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:133
+00a09434 T patch_wlan_dev_module_init	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:180
+00a09488 T set_mcc_profile_wmicmd_handler	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:202
+00a09518 T wlan_register_mcc_profile_dispatch_table	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:243
+00a0952c T patch_wlan_dev_event	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:250
+00a09888 T patch_dev_conn_finish_cb	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:467
+00a0989c T patch_wlan_dev_conn_start	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:477
+00a09964 T wlan_dev_install_patch	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_dev_patch.c:517
+00a0997c T patch_P2P_RxActionFrame2	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_p2p_patch.c:15
+00a09ab0 T _HandleProbeRequest	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_p2p_patch.c:135
+00a09cd4 T patch_pmSetP2PPowerState	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_power_patch.c:17
+00a09df8 T patch_pmTIMHandler	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_power_patch.c:87
+00a09e2c t patch_pmApPmEnable	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_power_patch.c:102
+00a09eac T wlan_power_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_power_patch.c:154
+00a09ed8 T patch_wlan_scheduler_connection_notify	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_scheduler_patch.c:11
+00a0a18c T wlan_scheduler_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_scheduler_patch.c:132
+00a0a19c t iswpsoui	/root/3.1/fc.p4/target/patch/AR6006/v2/../../../src/wlan/include/ieee80211_var.h:297
+00a0a1d4 t patch_wlan_set_ht_cap	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_umlme_patch.c:37
+00a0a298 T patch_mlme_recv_action_frame	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_umlme_patch.c:92
+00a0a2ec T patch_mlme_recv_assoc_req	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_umlme_patch.c:130
+00a0a8f8 T patch_mlme_sm_halt	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_umlme_patch.c:472
+00a0a934 T patch_mlme_recv_auth_open	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_umlme_patch.c:487
+00a0a9e8 T patch_mlme_recv_assoc_resp	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_umlme_patch.c:544
+00a0ad9c T wlan_umlme_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_umlme_patch.c:803
+00a0addc T patch_wmi_get_stats_cmd	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_wmi_patch.c:79
+00a0aea0 t dispatch_p2p_fw_misc_cmds	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_wmi_patch.c:143
+00a0aedc t dispatch_ioe_power_cmds	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_wmi_patch.c:164
+00a0af1c T patch_RegisterWMIDispatchTables	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_wmi_patch.c:189
+00a0af40 t patch_wmi_bssInfo_event	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_wmi_patch.c:201
+00a0aff8 T patch_wmi_scanComplete_event	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_wmi_patch.c:250
+00a0b078 T wlan_wmi_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_wmi_patch.c:286
+00a0b0ac T _WMI_GetEventAvilCount	/root/3.1/fc.p4/target/patch/AR6006/v2/wmi_svc_patch.c:25
+00a0b0c8 t ANTDivDispatchWmiCmds	/root/3.1/fc.p4/target/patch/AR6006/v2/wmi_svc_patch.c:48
+00a0b0d8 T patch_WMI_Init	/root/3.1/fc.p4/target/patch/AR6006/v2/wmi_svc_patch.c:72
+00a0b204 T patch_WMI_AllocEvent	/root/3.1/fc.p4/target/patch/AR6006/v2/wmi_svc_patch.c:188
+00a0b2e0 T CDR_SendCompleteHandler	/root/3.1/fc.p4/target/patch/AR6006/v2/wmi_svc_patch.c:296
+00a0b2f0 T patch_WMI_SendEvent	/root/3.1/fc.p4/target/patch/AR6006/v2/wmi_svc_patch.c:303
+00a0b40c T patch_FreeEvt	/root/3.1/fc.p4/target/patch/AR6006/v2/wmi_svc_patch.c:408
+00a0b484 T patch_WMI_SendCompleteHandler	/root/3.1/fc.p4/target/patch/AR6006/v2/wmi_svc_patch.c:439
+00a0b4e4 T wmi_svc_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/wmi_svc_patch.c:478
+00a0b50c T patch_dhc_request	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:367
+00a0b79c T patch_dhc_release	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:664
+00a0b7b8 T IsDHCPDone	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:924
+00a0b7e8 T dhcpclnt_patch_install_ioe	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:1006
+00a0b804 T install_patches_iot	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/install_patches.c:26
+00a0b868 T patch_ip6_rcv	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip6_patch.c:46
+00a0b87c T ip6_rcv_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip6_patch.c:52
+00a0b88c T patch_ip_offload_recv_ip_packet	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:1423
+00a0baec T patch_ip_offload_recv_packet	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:1635
+00a0bb08 T patch_is_tcp_uplink_sock_unconnected_state	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:1666
+00a0bb3c T patch_ip_demux	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:1699
+00a0bbc0 T patch_ip_init	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:1811
+00a0bbdc T patch_icmprcv	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:2444
+00a0bc18 T patch_ip_reassm	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:2461
+00a0bc68 T patch_if_queue_rcvd_pkt	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:2500
+00a0beac T ip_main_patch_install_ioe	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:2651
+00a0bef8 T patch_create_eap_m3	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/m1_m4_frame_patch.c:17
+00a0bfa0 T m1_m4_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/m1_m4_frame_patch.c:67
+00a0bfb0 T wmi_p2p_fw_list_persistent_prof_cmd	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/p2p_main_fw_patch.c:1746
+00a0c060 T socket_ipconfig_dhcp_release	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:107
+00a0c078 T socket_ipset_tcp_set_rx_buf	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:115
+00a0c094 T patch_dispatch_wlan_socket_cmds	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:124
+00a0c17c T patch_socketLayer_Init	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:228
+00a0c198 T socket_dnc_handle_command	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:416
+00a0c1bc T sock_send_dnc_resp_event	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:430
+00a0c234 T socket_dnc_handle_enable_command	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:505
+00a0c2b8 T socket_config_dns_server_addr	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:527
+00a0c410 T socket_dns_local_domain	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:683
+00a0c448 T socket_update_host_name	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:692
+00a0c504 T socket_update_dns_data_base	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:720
+00a0c5d4 T socketlayer_patch_install_ioe	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:925
+00a0c600 T patch_suppl_auth_init_auth	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/suppl_auth_patch.c:34
+00a0c650 T patch_hs_compl_evt	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/suppl_auth_patch.c:60
+00a0c748 T patch_suppl_process_sent_m2	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/suppl_auth_patch.c:131
+00a0c7a8 T patch_suppl_process_tkip_cm	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/suppl_auth_patch.c:176
+00a0c7dc T patch_suppl_process_m3_evt	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/suppl_auth_patch.c:190
+00a0c93c T suppl_auth_clear_node	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/suppl_auth_patch.c:263
+00a0c96c T supp_auth_module_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/suppl_auth_patch.c:277
+00a0c990 T tx_tcp_wakeup	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:60
+00a0c9a4 T patch_soisconnecting	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:70
+00a0c9bc T patch_soisconnected	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:78
+00a0ca10 T patch_soisdisconnecting	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:98
+00a0ca28 T patch_soisdisconnected	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:106
+00a0ca40 T patch_sbwakeup	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:114
+00a0ca58 T patch_tcp_drop	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:128
+00a0cac0 T patch_tcp_input	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:156
+00a0ddb8 T patch_t_connect	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:1803
+00a0de28 t copypartdata	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:1861
+00a0de88 T patch_fix_mbuf	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:1885
+00a0e348 T patch_tcp_output	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:2429
+00a0ea14 T patch_tcp_socket_closed	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3316
+00a0ea30 T patch_sofree	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3331
+00a0eabc T patch_tcp_slowtimo	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3387
+00a0ebbc T patch_tcp_reass	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3504
+00a0edd8 T patch_sbdrop	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3683
+00a0ee5c T patch_sbflush	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3753
+00a0eeac T patch_tcp_fasttimo	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3781
+00a0eff8 T patch_sosetopt	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3933
+00a0f044 T patch_sogetopt	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3964
+00a0f074 T tcp_patch_install_ioe	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3994
+00a0f104 T patch_inet_timer	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/timeouts_patch.c:48
+00a0f118 T patch_iniche_stack_tick_handler	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/timeouts_patch.c:66
+00a0f160 T iniche_resync_iniche_tick	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/timeouts_patch.c:146
+00a0f1ac T iniche_get_tps_based_on_wlan_policy	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/timeouts_patch.c:172
+00a0f238 T timeouts_patches_install_ioe	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/timeouts_patch.c:211
+00a0f254 T patch_TXRX_RecycleBuffers	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/txrx_api_patch.c:403
+00a0f430 T patch_htc_buffer_dispatcher	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/txrx_api_patch.c:567
+00a0f48c T iot_patch_TXRX_Init	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/txrx_api_patch.c:592
+00a0f510 T patch_TXRX_ReturnTxBuffers	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/txrx_api_patch.c:619
+00a0f5c0 T txrx_api_patches_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/txrx_api_patch.c:694
+00a0f5f4 T _demo_promisc_mode_frame_cb	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/txrx_internal_patch.c:112
+00a0f668 T patch_TXRX_ProcessRxq	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/txrx_internal_patch.c:148
+00a0ffd0 T txrx_internal_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/txrx_internal_patch.c:781
+00a0ffec T patch_udpdemux	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/udp_patch_ioe.c:27
+00a10288 T patch_udp_alloc	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/udp_patch_ioe.c:345
+00a102cc T udp_patch_install_ioe	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/udp_patch_ioe.c:382
+00a102ec T patch_udp_soinput	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/udpsock_patch.c:58
+00a103c0 T patch_udp_userreq	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/udpsock_patch.c:154
+00a1046c T udpsock_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/udpsock_patch.c:433
+00a10484 T patch_win_check_80211_recv	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/win_patch.c:17
+00a1054c T win_check_api_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/win_patch.c:79
+00a1055c T patch_wmi_tx_power_scale_cmd	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wlan_wmi_patch.c:63
+00a105ac T patch_wmi_set_channel_list_cmd	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wlan_wmi_patch.c:121
+00a105d0 T patch_wmi_setPowerMode_cmd	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wlan_wmi_patch.c:128
+00a1062c T wlan_wmi_patch_install_ioe	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wlan_wmi_patch.c:156
+00a10648 T patch_dispatch_wlan_filtered_promiscuous_cmd	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wmi_svc_patch_ioe.c:21
+00a106dc t wpsbuf_put_be16	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/../../../src/wlan/wps/include/wpsbuf.h:159
+00a106f8 T patch_wps_build_dev_password_id	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:90
+00a10730 T patch_wps_build_beacon_ie	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:102
+00a1081c T patch_wps_init	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:138
+00a1089c T patch_wps_start_scan_process	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:161
+00a10978 T patch_wmi_wps_start	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:201
+00a10cbc T patch_wps_recv_packet	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:497
+00a110a8 T patch_wps_derive_keys	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:686
+00a112e8 T patch_eap_req_process	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:822
+00a11344 T Teap_req_thread_start	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:847
+00a11544 T patch_mp_exptmod_fast	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:1207
+00a11958 T patch_wps_clean_state	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:1562
+00a11a44 T patch_wps_send_packet	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:1710
+00a11bc0 T patch_wps_start_connect_process	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:1801
+00a11f88 T patch_wps_send_profile_event_to_host	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:2009
+00a120f8 T patch_p2p_write_dset_SM	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:2082
+00a12214 T patch_wps_ap_init	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:2220
+00a123f8 T patch_wps_pack_ie_for_probereq_assocreq	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:2327
+00a12540 T wps_main_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:2387
+00a125c0 T patch_wpsbuf_alloc	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wpsbuf_patch.c:38
+00a125f0 T patch_wpsbuf_free	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wpsbuf_patch.c:53
+00a12614 T wps_buf_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wpsbuf_patch.c:68
+00a12628 T cdr_misc_common_completed	/root/3.1/fc.p4/target/src/phost/misc_cdr_request.c:15
+00a1263c T bgr_misc_cdr_initiate	/root/3.1/fc.p4/target/src/phost/misc_cdr_request.c:24
+00a12680 T cdr_globle_variable_wr	/root/3.1/fc.p4/target/src/phost/misc_cdr_request.c:101
+00a126a8 T qcom_print_string	/root/3.1/fc.p4/target/src/phost/print_string.c:12
+00a126c8 t FS_FD2BIT	/root/3.1/fc.p4/target/src/phost/qcom_select.c:27
+00a126e8 t fd_save	/root/3.1/fc.p4/target/src/phost/qcom_select.c:43
+00a12710 t fdset_save	/root/3.1/fc.p4/target/src/phost/qcom_select.c:59
+00a12738 t FS_Q2FDS	/root/3.1/fc.p4/target/src/phost/qcom_select.c:75
+00a12760 t fd_set_init	/root/3.1/fc.p4/target/src/phost/qcom_select.c:90
+00a127a0 T QCA_FD_ZERO	/root/3.1/fc.p4/target/src/phost/qcom_select.c:105
+00a127c4 T QCA_FD_CLR	/root/3.1/fc.p4/target/src/phost/qcom_select.c:123
+00a12804 T QCA_FD_SET	/root/3.1/fc.p4/target/src/phost/qcom_select.c:146
+00a12840 T QCA_FD_ISSET	/root/3.1/fc.p4/target/src/phost/qcom_select.c:168
+00a12864 T qca_fdset_clr	/root/3.1/fc.p4/target/src/phost/qcom_select.c:182
+00a12898 T qcom_select	/root/3.1/fc.p4/target/src/phost/qcom_select.c:197
+00a1295c T cdr_sock_common_completed	/root/3.1/fc.p4/target/src/phost/qcom_socket.c:18
+00a12970 T BGR_SOCK_CDR_initiate	/root/3.1/fc.p4/target/src/phost/qcom_socket.c:28
+00a129b4 T qcom_socket	/root/3.1/fc.p4/target/src/phost/qcom_socket.c:51
+00a129d4 T qcom_bind	/root/3.1/fc.p4/target/src/phost/qcom_socket.c:66
+00a129f0 T qcom_listen	/root/3.1/fc.p4/target/src/phost/qcom_socket.c:81
+00a12a0c T qcom_accept	/root/3.1/fc.p4/target/src/phost/qcom_socket.c:94
+00a12a34 T qcom_send	/root/3.1/fc.p4/target/src/phost/qcom_socket.c:162
+00a12a7c T qcom_sendto	/root/3.1/fc.p4/target/src/phost/qcom_socket.c:191
+00a12ac8 T qcom_recv	/root/3.1/fc.p4/target/src/phost/qcom_socket.c:222
+00a12ae8 T qcom_recvfrom	/root/3.1/fc.p4/target/src/phost/qcom_socket.c:237
+00a12b0c T qcom_close	/root/3.1/fc.p4/target/src/phost/qcom_socket.c:254
+00a12b24 t threadx_rtos_cond_init	/root/3.1/fc.p4/target/src/phost/rtos_threadx.c:22
+00a12b30 t threadx_rtos_cond_signal	/root/3.1/fc.p4/target/src/phost/rtos_threadx.c:31
+00a12b3c t threadx_rtos_cond_wait	/root/3.1/fc.p4/target/src/phost/rtos_threadx.c:37
+00a12b48 T threadx_rtos_kernel_start	/root/3.1/fc.p4/target/src/phost/rtos_threadx.c:43
+00a12b50 T rtos_is_threadx	/root/3.1/fc.p4/target/src/phost/rtos_threadx.c:50
+00a12b70 T cdr_host_thread_initiate	/root/3.1/fc.p4/target/src/phost/rtos_threadx.c:79
+00a12b7c T cdr_host_thread_entry	/root/3.1/fc.p4/target/src/phost/rtos_threadx.c:85
+00a12ba0 T cdr_host_thread_init	/root/3.1/fc.p4/target/src/phost/rtos_threadx.c:106
+00a12c14 T cdr_tx_pkt_alloc	/root/3.1/fc.p4/target/src/phost/tx_alloc.c:20
+00a12c3c T cdr_bpool_info_get	/root/3.1/fc.p4/target/src/phost/tx_alloc.c:41
+00a12c60 T CDR_wmi_dev_init	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:29
+00a12cb0 T CDR_wmi_dev_get	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:46
+00a12cc4 T cdr_wmi_event_handler_init	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:57
+00a12cd0 t cdr_wmi_event_completed	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:63
+00a12d0c T CDR_wmi_event_send	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:85
+00a12d9c T CDR_wmi_connect_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:122
+00a12e30 T CDR_wmi_ap_set_beacon_int_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:189
+00a12e50 T CDR_wmi_ap_hidden_ssid_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:209
+00a12e70 T CDR_wmi_ap_set_num_sta_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:227
+00a12e90 T CDR_wmi_ap_set_country_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:245
+00a12ed0 T CDR_wmi_addKey_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:287
+00a12f58 T CDR_wmi_set_passphrase_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:334
+00a12f98 T CDR_wmi_scanparams_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:360
+00a12ff0 T CDR_wmi_bssfilter_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:388
+00a13028 T CDR_wmi_probedSsid_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:413
+00a1309c T CDR_wmi_startscan_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:464
+00a130e0 T CDR_wmi_disconnect_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:493
+00a130fc T CDR_wmi_set_pmk_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:508
+00a13140 T CDR_wmi_ap_profile_commit	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:824
+00a131b0 T CDR_wmi_dns_en_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:899
+00a131d8 T CDR_wmi_ip_config_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:949
+00a13208 T CDR_wmi_ipconfig_dhcp_pool_cmd	/root/3.1/fc.p4/target/src/phost/wmi_cdr.c:976
+00a13234 T qcom_switch_mode	/root/3.1/fc.p4/target/src/phost/wmi_tmp.c:14
+00a1324c T qcom_dev_connected	/root/3.1/fc.p4/target/src/phost/wmi_tmp.c:20
+00a13268 T qcom_mac_read	/root/3.1/fc.p4/target/src/phost/wmi_tmp.c:38
+00a13284 T qcom_reconnect_tmp	/root/3.1/fc.p4/target/src/phost/wmi_tmp.c:54
+00a132b8 T _qcom_host_less_event_filter	/root/3.1/fc.p4/target/src/phost/wmi_tmp.c:276
+00a132d0 T qcom_dhcp_clean_from_mac	/root/3.1/fc.p4/target/src/phost/wmi_tmp.c:289
+00a13318 T qcom_wlan_connect	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:16
+00a13354 T qcom_wlan_disconnect	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:34
+00a13364 T qcom_start_scan	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:42
+00a13384 T qcom_set_scan_params	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:50
+00a133bc T qcom_set_bss_filter	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:60
+00a133d0 T qcom_set_probed_ssid	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:68
+00a133ec T qcom_set_ap_beacon_interval	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:84
+00a13400 T qcom_add_cipher_key	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:132
+00a13428 T qcom_ap_hidden_ssid	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:176
+00a1343c T qcom_ap_set_num_sta	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:184
+00a13450 T qcom_ap_config_commit	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:200
+00a1348c T qcom_set_ap_country	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:214
+00a134a0 T qcom_set_pmk	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:243
+00a134b4 T qcom_set_passphrase	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:267
+00a134cc T qcom_enable_dns_client	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:302
+00a134e0 T qcom_ip_config_request	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:314
+00a134f8 T qcom_ipconfig_dhcp_pool	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:320
+00a13510 T qcom_get_bp_info	/root/3.1/fc.p4/target/src/phost/wmi_wlan.c:332
+00a1351c T txqc_xttimer_isr_handler	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:20
+00a13524 T txqc_init	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:27
+00a1353c T txqc_prep_threadx_scheduler	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:33
+00a13554 T txqc_process_dsrs	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:40
+00a135b8 T txqc_is_meta_scheduler_activity_pending	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:98
+00a135e4 T txqc_wait_for_activity	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:123
+00a135f4 T _tx_timer_initialize	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:168
+00a135fc T _tx_timer_interrupt	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:173
+00a13620 T _tx_time_get	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:179
+00a13648 T _tx_time_set	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:194
+00a13670 T _tx_timer_activate	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:208
+00a1367c T _tx_timer_change	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:220
+00a136a4 T _tx_timer_expired	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:242
+00a136f4 T _tx_timer_internal_system_init	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:269
+00a13718 T _tx_timer_create	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:284
+00a1373c T _tx_timer_deactivate	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:304
+00a13748 T _tx_timer_delete	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:316
+00a1375c T _tx_timer_performance_info_get	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:331
+00a13764 T _tx_timer_performance_system_info_get	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:338
+00a1376c T _tx_timer_system_activate	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:344
+00a13798 T _tx_timer_system_deactivate	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:360
+00a137bc T _txe_timer_activate	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:374
+00a137c8 T _txe_timer_change	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:380
+00a137d8 T _txe_timer_create	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:388
+00a137f8 T _txe_timer_deactivate	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:395
+00a13804 T _txe_timer_delete	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:401
+00a13810 T _txe_timer_info_get	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:408
+00a13828 T txqc_pool_start	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:414
+00a13840 T txqc_app_entry_get	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:429
+00a13854 T _tx_initialize_kernel_enter	/tmp/components/rel/threadx.ioe/5.6/tx_initialize_kernel_enter.c:142
+00a1389c T _tx_initialize_low_level	/tmp/components/rel/threadx.ioe/5.6/tx_initialize_low_level.S:118
+00a138d4 T _tx_thread_identify	/tmp/components/rel/threadx.ioe/5.6/tx_thread_identify.c:105
+00a138e8 T _tx_thread_initialize	/tmp/components/rel/threadx.ioe/5.6/tx_thread_initialize.c:119
+00a13944 T _tx_thread_schedule	/tmp/components/rel/threadx.ioe/5.6/tx_thread_schedule.S:150
+00a13988 T _txe_byte_allocate	/tmp/components/rel/threadx.ioe/5.6/txe_byte_allocate.c:116
+00a139e4 T _txe_byte_pool_create	/tmp/components/rel/threadx.ioe/5.6/txe_byte_pool_create.c:116
+00a13a78 T _txe_event_flags_create	/tmp/components/rel/threadx.ioe/5.6/txe_event_flags_create.c:113
+00a13af8 T _txe_event_flags_delete	/tmp/components/rel/threadx.ioe/5.6/txe_event_flags_delete.c:106
+00a13b24 T _txe_event_flags_get	/tmp/components/rel/threadx.ioe/5.6/txe_event_flags_get.c:115
+00a13b68 T _txe_event_flags_set	/tmp/components/rel/threadx.ioe/5.6/txe_event_flags_set.c:103
+00a13b94 T _txe_mutex_create	/tmp/components/rel/threadx.ioe/5.6/txe_mutex_create.c:113
+00a13c1c T _txe_mutex_get	/tmp/components/rel/threadx.ioe/5.6/txe_mutex_get.c:113
+00a13c64 T _txe_mutex_put	/tmp/components/rel/threadx.ioe/5.6/txe_mutex_put.c:108
+00a13c9c T _txe_queue_create	/tmp/components/rel/threadx.ioe/5.6/txe_queue_create.c:116
+00a13d3c T _txe_queue_delete	/tmp/components/rel/threadx.ioe/5.6/txe_queue_delete.c:105
+00a13d68 T _txe_queue_receive	/tmp/components/rel/threadx.ioe/5.6/txe_queue_receive.c:110
+00a13da4 T _txe_queue_send	/tmp/components/rel/threadx.ioe/5.6/txe_queue_send.c:108
+00a13de0 T _txe_semaphore_create	/tmp/components/rel/threadx.ioe/5.6/txe_semaphore_create.c:113
+00a13e60 T _txe_semaphore_get	/tmp/components/rel/threadx.ioe/5.6/txe_semaphore_get.c:106
+00a13e90 T _txe_semaphore_put	/tmp/components/rel/threadx.ioe/5.6/txe_semaphore_put.c:98
+00a13eb0 T _txe_thread_create	/tmp/components/rel/threadx.ioe/5.6/txe_thread_create.c:128
+00a13fa0 T _txe_thread_delete	/tmp/components/rel/threadx.ioe/5.6/txe_thread_delete.c:104
+00a13fcc T _txe_thread_priority_change	/tmp/components/rel/threadx.ioe/5.6/txe_thread_priority_change.c:109
+00a1400c T _txe_thread_resume	/tmp/components/rel/threadx.ioe/5.6/txe_thread_resume.c:98
+00a1402c T _txe_thread_suspend	/tmp/components/rel/threadx.ioe/5.6/txe_thread_suspend.c:100
+00a1404c T _xt_context_save	/tmp/components/rel/threadx.ioe/5.6/xtensa_context.S:93
+00a140b0 T _xt_context_restore	/tmp/components/rel/threadx.ioe/5.6/xtensa_context.S:226
+00a140ec T Uart_Rx_Pin_Set	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:86
+00a1416c T Uart_Tx_Pin_Set	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:151
+00a141d0 T _StartStopInterruptPolling	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:210
+00a14208 T _InterruptPollCallback	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:226
+00a14230 T _UartTryTransmit	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:259
+00a14298 T _UartReceive	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:306
+00a142ec t UartDevHWTransmit	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:348
+00a142fc t UartDevDrainRX	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:356
+00a14328 T _UartDevSetBaud	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:369
+00a14374 t UartDevIsrHandler	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:409
+00a14380 T _CatchTxOverFlowError	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:419
+00a14390 T _UartDevDsrHandler	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:432
+00a143f0 T _UartDevPortPinsEnableDisable	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:493
+00a1443c T _UartDevShutDownUart	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:525
+00a14468 T _UartDevSetupUart	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:535
+00a14570 T UartConfigureRxPolling	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:618
+00a1458c T _UartConfigureRxWake	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:627
+00a14614 t UartDeviceDirectByteWrite	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:665
+00a1464c t UartDevIoctl	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:702
+00a146e0 t UartDev_Start	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:756
+00a1483c T _UartRxPinInterruptHandler	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:864
+00a14860 t UartDev_Init	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:875
+00a148cc T UARTSERP_HW_module_install	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:913
+00a148e0 T _flash_erase	/root/3.1/fc.p4/target/apps/lib/flash_nvramw.c:34
+00a14934 T _flash_partial_erase	/root/3.1/fc.p4/target/apps/lib/flash_nvramw.c:50
+00a14a20 T _flash_block_erase	/root/3.1/fc.p4/target/apps/lib/flash_nvramw.c:87
+00a14a30 T _flash_sector_erase	/root/3.1/fc.p4/target/apps/lib/flash_nvramw.c:98
+00a14a40 T flash_nvramw_module_install	/root/3.1/fc.p4/target/apps/lib/flash_nvramw.c:105
+00a14a54 T _spi_write_enable	/root/3.1/fc.p4/target/apps/lib/spi_nvramw.c:34
+00a14a98 T _spi_write_bytes	/root/3.1/fc.p4/target/apps/lib/spi_nvramw.c:56
+00a14bd8 T _spi_write	/root/3.1/fc.p4/target/apps/lib/spi_nvramw.c:97
+00a14c20 T _spi_byte_write	/root/3.1/fc.p4/target/apps/lib/spi_nvramw.c:127
+00a14c34 T spi_nvramw_module_install	/root/3.1/fc.p4/target/apps/lib/spi_nvramw.c:145
+00a14c64 t console_putc_replacement	/root/3.1/fc.p4/target/apps/lib/hostless/priv_uart.c:117
+00a14c9c t console_serial_event_callback	/root/3.1/fc.p4/target/apps/lib/hostless/priv_uart.c:164
+00a14cc0 t uart_mod_init	/root/3.1/fc.p4/target/apps/lib/hostless/priv_uart.c:183
+00a14d18 T uart_mod_start	/root/3.1/fc.p4/target/apps/lib/hostless/priv_uart.c:207
+00a14d90 T uart_rx_start	/root/3.1/fc.p4/target/apps/lib/hostless/priv_uart.c:242
+00a14da0 T Uart_Enumerate	/root/3.1/fc.p4/target/apps/lib/hostless/priv_uart.c:257
+00a14de8 T Uart_Open	/root/3.1/fc.p4/target/apps/lib/hostless/priv_uart.c:281
+00a14e28 T Uart_SetPara	/root/3.1/fc.p4/target/apps/lib/hostless/priv_uart.c:306
+00a14e74 T Uart_Write	/root/3.1/fc.p4/target/apps/lib/hostless/priv_uart.c:337
+00a14e94 T Uart_Read	/root/3.1/fc.p4/target/apps/lib/hostless/priv_uart.c:356
+00a14eb4 T Uart_GetFd	/root/3.1/fc.p4/target/apps/lib/hostless/priv_uart.c:397
+00a14ee0 T noise_floor_print	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_event.c:13
+00a14f18 T app_fsm1	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_event.c:35
+00a14f74 T my_wifi_conn_callback	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_event.c:69
+00a15034 T qcom_event_dispatch	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_event.c:113
+00a151b4 T user_app_init	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_event.c:216
+00a151c8 T cmnos_vnprintf	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_printf.c:49
+00a156c0 T _qcom_wps_credentials_set	/root/3.1/fc.p4/target/apps/lib/hostless/wps_priv.c:225
+00a15758 T _qcom_wps_process	/root/3.1/fc.p4/target/apps/lib/hostless/wps_priv.c:292
+00a157e4 T qca_parse_ipad	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:212
+00a158d8 T _reverse_string	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:339
+00a1590c T _reverse_domain_addr6	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:355
+00a15a78 T _reverse_domain_addr	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:460
+00a15ae4 T _dns_query	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:513
+00a15b08 T _dns_query_entry	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:545
+00a15b38 T _dns_query_entry_type	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:577
+00a15b68 T _dns_query_type	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:615
+00a15bfc T _dnc_sendreq	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:697
+00a15d30 T _dnc_copyout	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:999
+00a15d80 T _dnc_copyin	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1044
+00a15df0 T _dnc_del	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1097
+00a15e28 T _dnc_ageout	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1139
+00a15e70 T _dnc_new	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1180
+00a15e9c T _dns_check	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1218
+00a15f40 T _badreply	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1286
+00a15f50 T _dnc_set_answer	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1349
+00a16060 T _dnc_savename	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1457
+00a160c0 T _dns_upcall	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1522
+00a16344 T _dnc_lookup	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1778
+00a16408 T _dns_lookup	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1897
+00a1642c T _dns_query_do	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1937
+00a16464 T _TXTQuery	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1986
+00a16494 T _gethostbyname	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:2017
+00a16554 T _prep_reverse_name	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:2081
+00a1659c T _nslookupr	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:2120
+00a165cc T _gethostbyname2	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:2167
+00a16688 T _in_reshost	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:3380
+00a167f4 T _DncHandleCommands	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:3506
+00a169e4 T _dns_poll_pending_query	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:3626
+00a16adc T _dns_client_offload_store_handler	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:3701
+00a16d0c T _dns_client_offload_recall_handler	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:3830
+00a16e50 T _dns_server_init	/root/3.1/fc.p4/target/src/ipstack/dns/dnssrvr.c:85
+00a16e9c T _dns_server_upcall	/root/3.1/fc.p4/target/src/ipstack/dns/dnssrvr.c:112
+00a16fc8 T _get_hostname	/root/3.1/fc.p4/target/src/ipstack/dns/dnssrvr.c:182
+00a17010 T _DnsServerConstructv4Response	/root/3.1/fc.p4/target/src/ipstack/dns/dnssrvr.c:207
+00a171c4 T _get_ip_for_host	/root/3.1/fc.p4/target/src/ipstack/dns/dnssrvr.c:327
+00a17218 T _DHCPv4UpdateDnsdatabase	/root/3.1/fc.p4/target/src/ipstack/dns/dnssrvr.c:357
+00a172d8 T _DHCPUpdateDnsdatabase	/root/3.1/fc.p4/target/src/ipstack/dns/dnssrvr.c:392
+00a173e4 T _cdr_initiate	/root/3.1/fc.p4/target/src/domain/cdr.c:24
+00a17430 T cdr_req_next	/root/3.1/fc.p4/target/src/domain/cdr.c:64
+00a17454 T cdr_module_install	/root/3.1/fc.p4/target/src/domain/cdr.c:113
+00a17470 T cdr_bgr_initiate	/root/3.1/fc.p4/target/src/domain/cdr_bgr.c:57
+00a17480 T cdr_bgr_dispatch	/root/3.1/fc.p4/target/src/domain/cdr_bgr.c:65
+00a175b8 T cdr_bgr_check_for_msgs	/root/3.1/fc.p4/target/src/domain/cdr_bgr.c:150
+00a175e4 T cdr_bgr_init	/root/3.1/fc.p4/target/src/domain/cdr_bgr.c:165
+00a17614 T get_cdr_timer	/root/3.1/fc.p4/target/src/domain/cdr_select_handler.c:38
+00a17650 T tx_wakeup_select_by_so	/root/3.1/fc.p4/target/src/domain/cdr_select_handler.c:57
+00a17708 T tx_wakeup_select_by_uart	/root/3.1/fc.p4/target/src/domain/cdr_select_handler.c:94
+00a1773c T select_timeout_handle	/root/3.1/fc.p4/target/src/domain/cdr_select_handler.c:106
+00a177a8 T cdr_select_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_select_handler.c:126
+00a17810 T get_sock_id	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:127
+00a17838 T qca_cdr_sock_cb_install	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:143
+00a1785c T qca_cdr_sock_cb_uninstall	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:158
+00a1787c T qca_cdr_sock_timer_install	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:170
+00a178b4 T qca_cdr_sock_timer_uninstall	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:180
+00a178e4 T qca_cdr_sock_cb_implem	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:190
+00a17908 T qca_accept_top_half	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:200
+00a17960 T qca_accept_bottom_half	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:242
+00a179e0 T qca_accept_cb	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:301
+00a17a14 T t_recv	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:336
+00a17a50 T t_recvfrom	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:388
+00a17aac T cdr_socket_open_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:421
+00a17acc T cdr_socket_bind_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:431
+00a17aec T cdr_socket_listen_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:441
+00a17b0c T cdr_socket_accept_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:451
+00a17b20 T qca_connect_cb	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:459
+00a17b54 T qca_connect_timeout_handler	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:479
+00a17b7c T qca_connect_top_half	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:493
+00a17bd8 T cdr_socket_connect_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:526
+00a17bec T cdr_socket_setsockopt_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:534
+00a17c10 T cdr_socket_getsockopt_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:544
+00a17c34 T cdr_socket_send_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:555
+00a17c54 T cdr_socket_sendto_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:568
+00a17c78 T qca_recv_timeout_handler	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:578
+00a17ca4 T cdr_socket_recv_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:615
+00a17d04 T qca_recvfrom_timeout_handler	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:643
+00a17d28 T cdr_socket_recvfrom_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:654
+00a17d78 T qca_so_closing_flush	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:678
+00a17e14 T cdr_socket_close_request_handle	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:723
+00a17e38 T cdr_dev_get_by_id	/root/3.1/fc.p4/target/src/domain/misc_cdr_handler.c:36
+00a17e50 T cdr_wps_init_request_handle	/root/3.1/fc.p4/target/src/domain/misc_cdr_handler.c:46
+00a17e78 T cdr_wps_set_attrs_handle	/root/3.1/fc.p4/target/src/domain/misc_cdr_handler.c:64
+00a17f20 T cdr_wps_cancel_request_handle	/root/3.1/fc.p4/target/src/domain/misc_cdr_handler.c:115
+00a17f48 T cdr_globle_variable_wr_handle	/root/3.1/fc.p4/target/src/domain/misc_cdr_handler.c:133
+00a17fb4 T qca_tcp_send	/root/3.1/fc.p4/target/src/domain/priv_socksend.c:64
+00a18030 T qca_udp_send	/root/3.1/fc.p4/target/src/domain/priv_socksend.c:114
+00a180c8 T user_udp_sock_send	/root/3.1/fc.p4/target/src/domain/priv_udp_send.c:40
+00a1827c T tx_alloc_wakeup	/root/3.1/fc.p4/target/src/domain/tx_alloc_handle.c:28
+00a182e8 T tx_alloc_timeout_handle	/root/3.1/fc.p4/target/src/domain/tx_alloc_handle.c:51
+00a18338 T cdr_txbuf_alloc_handle	/root/3.1/fc.p4/target/src/domain/tx_alloc_handle.c:67
+00a1838c T cdr_bpool_info_get_handle	/root/3.1/fc.p4/target/src/domain/tx_alloc_handle.c:91
+00a183a0 T tx_state_update	/root/3.1/fc.p4/target/src/domain/tx_buffer.c:32
+00a183d4 T TXRX_GetHtcBuffer	/root/3.1/fc.p4/target/src/domain/tx_buffer.c:43
+00a18444 T htc_buf_alloc	/root/3.1/fc.p4/target/src/domain/tx_buffer.c:69
+00a18478 T tx_buf_init	/root/3.1/fc.p4/target/src/domain/tx_buffer.c:90
+00a184d0 T bp_info_get	/root/3.1/fc.p4/target/src/domain/tx_buffer.c:135
+00a18538 T ar6000EepromGetChainMasks5G	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:27
+00a18558 T ar6000EepromSetChainMasks5G	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:39
+00a18574 T patch_ar6000TxGainTableOverrideFromEeprom	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:47
+00a18640 T patch_ar6000EepromSetSpurMitigation	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:111
+00a18798 T patch_ar6000EepromGetPaprdTrainerConfig	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:187
+00a188a0 T ar6000EepromGetPaprdCtrl2	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:246
+00a188d4 T ar6000EepromGetPaprdTrainerConfigExt	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:266
+00a18900 T patch_ar6000SetPowerCalTable	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:286
+00a18b10 T patch_ar6000AdjustPowerPerRate	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:376
+00a18bd8 T patch_ar6000SetPowerPerRateTable	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:483
+00a18ca8 T ar6000_eeprom_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:564
+00a18cf0 t ar6000PaprdCleanRetrainTimes	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:43
+00a18d14 t ar6000BackUpRestoreTxGainTable	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:54
+00a18e24 t ar6000AdjustTxGainTableForPaprd	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:122
+00a18f6c t patch_ar6000PaprdFindTrainingGainIndex	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:211
+00a19228 t patch_ar6000PaprdTrainingStatus	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:419
+00a19240 t patch_ar6000PaprdCalibrationSM	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:429
+00a192d4 T ar6000PaprdSetupPaprdAgc2	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:473
+00a19340 T patch_ar6000PaprdSetupTraining	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:486
+00a195e4 t ar6000PaprdXmitTrainingFrame_patch	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:1143
+00a197a4 T patch_ar6000PaprdRetrainSoftwareAgc_Stage2	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:1238
+00a19880 t patch_ar6000PaprdCheckRetrain	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:1317
+00a198dc T patch_ar6000PaprdHwEnable	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:1348
+00a1997c t patch_ar6000PaprdHwDisable	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:1407
+00a19a54 t patch_ar6000PaprdTrainNextGainIndex	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:1427
+00a19b24 T ar6000_paprd_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_paprd_patch.c:1468
+00a19b7c T patch_ar6000SetChannel	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_phy_patch.c:19
+00a19be0 T patch_ar6000WriteMacBBRegs	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_phy_patch.c:73
+00a19c54 T ar6000_phy_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_phy_patch.c:105
+00a19c78 t patch_ar6000NfInitCal	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_reset_patch.c:19
+00a19c90 T patch_ar6000WaitReg	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_reset_patch.c:71
+00a19ccc T patch_ar6000RxIQCalibration	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_reset_patch.c:88
+00a19f10 T ar6000_reset_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_reset_patch.c:231
+00a19f38 T patch_MAC_DMA_AllocBuffer	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6004_mac_dma_patch.c:52
+00a19f74 T ar6004_mac_dma_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6004_mac_dma_patch.c:66
+00a19f8c T _ANTDIV_enable	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:37
+00a19fcc T _ANTDIV_disable	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:63
+00a1a004 T _ANTDIV_getconfig	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:89
+00a1a028 T _ANTDIV_setconfig	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:104
+00a1a0a8 T _ANTDIV_init	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:488
+00a1a0ec T _ANTDIV_scan	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:503
+00a1a788 T _ANTDIV_ant_ctrl_apply	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:1150
+00a1a850 T _wmi_antdiv_sendstats	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:1274
+00a1a890 T _wmi_antdiv_setconfig	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:1290
+00a1a8b0 T patch_co_select_bt_dev_schedule	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:86
+00a1aa1c T co_wait_for_cts_timeout	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:245
+00a1aa68 T co_wait_for_null_timeout	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:262
+00a1aa78 T _co_self_cts_comp	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:269
+00a1aab8 T _CoTxCompletionNotification	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:285
+00a1aad0 T patch_co_chanop_state_dev_pause	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:335
+00a1af8c T patch_co_pause_bt_dev_op	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:644
+00a1afc0 T patch_co_op_end	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:658
+00a1b024 T patch_co_chanop_state_tx_drain	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:704
+00a1b048 T patch_co_chanop_state_run	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:715
+00a1b2c0 T MCC_DataReceiveNotify	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:912
+00a1b300 T patch_co_add_bt_dev_op	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:925
+00a1b384 T patch_co_scheduler	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:1005
+00a1b868 T patch_co_init	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:1753
+00a1b8c0 T patch_co_chanop_state_dev_resume	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:1770
+00a1ba10 T chop_install_patch	/root/3.1/fc.p4/target/patch/AR6006/v2/chop_sched_patch.c:1871
+00a1ba64 T patch_Process_Data_Frame	/root/3.1/fc.p4/target/patch/AR6006/v2/ieee80211_input_patch.c:261
+00a1ba98 T patch_ProcessSeqNum	/root/3.1/fc.p4/target/patch/AR6006/v2/ieee80211_input_patch.c:297
+00a1baac t patch_Process_Sta_Offload	/root/3.1/fc.p4/target/patch/AR6006/v2/ieee80211_input_patch.c:371
+00a1bb88 T ieee80211_input_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2/ieee80211_input_patch.c:420
+00a1bbb0 T patch_ar6000AniControl	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:75
+00a1bfa8 T patch_ar6000AniOfdmErrTrigger	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:228
+00a1c04c T patch_ar6000AniCckErrTrigger	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:332
+00a1c0c0 T patch_ar6000AniLowerImmunity	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:402
+00a1c114 T patch_ar6000AniResetTables	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:507
+00a1c18c t ar6000ResetAniINIReg_inCurrentMode	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:542
+00a1c254 T patch_ar6000AniReset	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:585
+00a1c394 T patch_ar6000EnableAni	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:647
+00a1c3b0 t patch_ar6000AniPoll	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:667
+00a1c514 T iot_ani_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ani_patch.c:841
+00a1c58c T iot_patch_MAC_DMA_PostInit	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ar6004_mac_dma_patch.c:80
+00a1c658 T iot_patch_MAC_DMA_AllocBuffer	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ar6004_mac_dma_patch.c:134
+00a1c970 T iot_ar6004_mac_dma_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/ar6004_mac_dma_patch.c:359
+00a1c980 T yield_processor	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/athos_main_patch.c:10
+00a1c990 T patch_buf_pool_free	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/buf_pool_patch.c:21
+00a1ca74 T patch_buf_pool_calc_allocation	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/buf_pool_patch.c:106
+00a1cb30 T buf_pool_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/buf_pool_patch.c:186
+00a1cb4c T patch_cm_connect_event	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/cnxmgmt_patch.c:34
+00a1cf94 T cnxmgmt_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/cnxmgmt_patch.c:290
+00a1cfa4 T get_dns_server	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcpclnt_patch.c:72
+00a1cfb0 T qca_dhc_extract_opts	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcpclnt_patch.c:112
+00a1d044 T patch_dhc_upcall	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcpclnt_patch.c:180
+00a1d33c T dhcpclnt_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcpclnt_patch.c:467
+00a1d34c T patch_dhs_upcall	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcpsrvr_patch.c:46
+00a1d3ac T dhcpsrvr_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dhcpsrvr_patch.c:77
+00a1d3bc T patch_dns_check	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dnsclnt_patch.c:92
+00a1d46c T patch_dns_poll_pending_query	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dnsclnt_patch.c:145
+00a1d558 T dnsclnt_patch_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/dnsclnt_patch.c:203
+00a1d568 T host_domain_init	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/domain_patch.c:14
+00a1d580 T target_domain_init	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/domain_patch.c:32
+00a1d58c T _WMI_Dispatch	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/domain_patch.c:61
+00a1d640 T patch_domain_install	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/domain_patch.c:139
+00a1d668 T patch_arp_free_pending	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:58
+00a1d714 T patch_send_arp	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:140
+00a1d98c T patch_send_via_arp	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:333
+00a1dab8 T patch_arp_send_pending	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:440
+00a1db00 T patch_update_arp_timestamp_rx_on_pkt	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:476
+00a1db64 T arp_patch_install_ioe	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:504
+00a1db8c T soreceive	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/socket_patch.c:105
+00a1deb0 T BGR_CDR_initiate	/root/3.1/fc.p4/target/src/phost/BGR_CDR_initiate.c:16
+00a1deec T WMI_CDR_initiate	/root/3.1/fc.p4/target/src/phost/WMI_CDR_initiate.c:18
+00a1df28 T std_done_fn	/root/3.1/fc.p4/target/src/phost/std_done.c:12
+00a1df38 t SERPAPI_Init	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:26
+00a1df50 T _NotifyIOThresholdEvent	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:34
+00a1df74 T SerP_CancelTimer	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:41
+00a1df98 t SerP_ScheduleTimer	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:50
+00a1dfc8 T SerP_RXTimerCallback	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:64
+00a1dfdc T SerP_TXTimerCallback	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:72
+00a1dff0 T _CleanupSerialPort	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:80
+00a1e030 t SERPAPI_Close	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:94
+00a1e058 t SERPAPI_Open	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:106
+00a1e0d4 t SERPAPI_Write	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:153
+00a1e130 t SERPAPI_Read	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:198
+00a1e198 t SERPAPI_Ioctl	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:248
+00a1e2f4 T SERP_module_install	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_if.c:376
+00a1e324 T _SerPPushBytes	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_port.c:33
+00a1e378 T _SerPPopBytes	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_port.c:54
+00a1e3c4 t SERHWAPI_RegisterPort	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_port.c:74
+00a1e46c t SERHWAPI_PushRXBytes	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_port.c:107
+00a1e4cc t SERHWAPI_PopTXBytes	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_port.c:145
+00a1e510 t SERHWAPI_IndicatePortEvent	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_port.c:168
+00a1e57c T serport_hw_api_install	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_port.c:200
+00a1e598 T _tx_byte_allocate	/tmp/components/rel/threadx.ioe/5.6/tx_byte_allocate.c:120
+00a1e64c T _tx_byte_pool_cleanup	/tmp/components/rel/threadx.ioe/5.6/tx_byte_pool_cleanup.c:112
+00a1e6bc T _tx_byte_pool_create	/tmp/components/rel/threadx.ioe/5.6/tx_byte_pool_create.c:117
+00a1e740 T _tx_byte_pool_search	/tmp/components/rel/threadx.ioe/5.6/tx_byte_pool_search.c:122
+00a1e828 T _tx_event_flags_create	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags_create.c:105
+00a1e874 T _tx_event_flags_delete	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags_delete.c:110
+00a1e910 T _tx_event_flags_get	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags_get.c:119
+00a1e9d8 T _tx_event_flags_set	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags_set.c:126
+00a1ebf4 T _tx_initialize_high_level	/tmp/components/rel/threadx.ioe/5.6/tx_initialize_high_level.c:132
+00a1ec20 T _tx_mutex_create	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_create.c:108
+00a1ec78 T _tx_mutex_get	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_get.c:122
+00a1ed58 T _tx_mutex_priority_change	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_priority_change.c:120
+00a1ee18 T _tx_mutex_put	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_put.c:135
+00a1f01c T _tx_queue_create	/tmp/components/rel/threadx.ioe/5.6/tx_queue_create.c:113
+00a1f084 T _tx_queue_delete	/tmp/components/rel/threadx.ioe/5.6/tx_queue_delete.c:109
+00a1f120 T _tx_queue_receive	/tmp/components/rel/threadx.ioe/5.6/tx_queue_receive.c:130
+00a1f2ec T _tx_queue_send	/tmp/components/rel/threadx.ioe/5.6/tx_queue_send.c:123
+00a1f428 T _tx_semaphore_create	/tmp/components/rel/threadx.ioe/5.6/tx_semaphore_create.c:105
+00a1f478 T _tx_semaphore_get	/tmp/components/rel/threadx.ioe/5.6/tx_semaphore_get.c:109
+00a1f4f8 T _tx_semaphore_put	/tmp/components/rel/threadx.ioe/5.6/tx_semaphore_put.c:108
+00a1f568 T _tx_thread_create	/tmp/components/rel/threadx.ioe/5.6/tx_thread_create.c:143
+00a1f674 T _tx_thread_delete	/tmp/components/rel/threadx.ioe/5.6/tx_thread_delete.c:107
+00a1f6c0 T _tx_thread_priority_change	/tmp/components/rel/threadx.ioe/5.6/tx_thread_priority_change.c:127
+00a1f77c T _tx_thread_resume	/tmp/components/rel/threadx.ioe/5.6/tx_thread_resume.c:115
+00a1f7fc T _tx_thread_shell_entry	/tmp/components/rel/threadx.ioe/5.6/tx_thread_shell_entry.c:119
+00a1f868 T _tx_thread_stack_build	/tmp/components/rel/threadx.ioe/5.6/tx_thread_stack_build.S:108
+00a1f89c T _tx_thread_suspend	/tmp/components/rel/threadx.ioe/5.6/tx_thread_suspend.c:118
+00a1f8ec T _tx_thread_system_preempt_check	/tmp/components/rel/threadx.ioe/5.6/tx_thread_system_preempt_check.c:112
+00a1f91c T _tx_thread_system_resume	/tmp/components/rel/threadx.ioe/5.6/tx_thread_system_resume.c:144
+00a1fa28 T _tx_thread_system_return	/tmp/components/rel/threadx.ioe/5.6/tx_thread_system_return.S:121
+00a1fa64 T _tx_thread_system_suspend	/tmp/components/rel/threadx.ioe/5.6/tx_thread_system_suspend.c:137
+00a1fcbc T _tx_thread_timeout	/tmp/components/rel/threadx.ioe/5.6/tx_thread_timeout.c:105
+00a1fcf8 T _qcom_set_ssid_cfg_from_wps	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wps.c:20
+00a1fd28 T _qcom_set_channel_cfg_from_wps	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wps.c:33
+00a1fd38 T _qcom_set_auth_cfg_from_wps	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wps.c:39
+00a1fd80 T _qcom_set_encrypt_cfg_from_wps	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wps.c:71
+00a1fdc4 T _qcom_set_key_index_from_wps	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wps.c:100
+00a1fdd4 T _qcom_set_pass_cfg_from_wps	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wps.c:108
+00a1fe04 T _qcom_set_bssid_cfg_from_wps	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wps.c:120
+00a1fe28 T _qcom_wps_connect	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_wps.c:132
+00a1fec4 T cdr_target_thread_initiate	/root/3.1/fc.p4/target/src/domain/cdr_target_thread.c:38
+00a1fed0 T cdr_target_thread_entry	/root/3.1/fc.p4/target/src/domain/cdr_target_thread.c:44
+00a1ff0c T cdr_target_thread_init	/root/3.1/fc.p4/target/src/domain/cdr_target_thread.c:67
+00a1ff80 T cdr_wmi_initiate	/root/3.1/fc.p4/target/src/domain/cdr_wmi.c:30
+00a1ff90 T cdr_wmi_dispatch	/root/3.1/fc.p4/target/src/domain/cdr_wmi.c:39
+00a1ffc8 T cdr_wmi_check_for_msgs	/root/3.1/fc.p4/target/src/domain/cdr_wmi.c:66
+00a1fff0 T cdr_wmi_init	/root/3.1/fc.p4/target/src/domain/cdr_wmi.c:86
+00a2001c T _pk_copyOut	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/pktalloc_patch.c:122
+00a20078 T _tx_event_flags_cleanup	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags_cleanup.c:115
+00a200e8 T _tx_mutex_cleanup	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_cleanup.c:112
+00a20158 T _tx_mutex_thread_release	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_cleanup.c:278
+00a201c4 T _tx_mutex_prioritize	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_prioritize.c:104
+00a20274 T _tx_queue_cleanup	/tmp/components/rel/threadx.ioe/5.6/tx_queue_cleanup.c:113
+00a202e8 T _tx_semaphore_cleanup	/tmp/components/rel/threadx.ioe/5.6/tx_semaphore_cleanup.c:112
+00a20354 T uart_gen_checksum	/home/gree/QCA_Project/demos/sdk_gree/uart.c:259
+00a2037c T tcp_rec_stus_req	/home/gree/QCA_Project/demos/sdk_gree/network.c:63
+00a20384 T tcp_rec_logout_req	/home/gree/QCA_Project/demos/sdk_gree/network.c:215
+00a2038c T udp_parse_bcast_req	/home/gree/QCA_Project/demos/sdk_gree/network.c:495
+00a20394 T msgfrm_gen_checksum	/home/gree/QCA_Project/demos/sdk_gree/network.c:550
+00a203b4 T ota_encode_chksum	/home/gree/QCA_Project/demos/sdk_gree/ota.c:37
+00a203d4 T Device_JS_Cmd_parse	/home/gree/QCA_Project/demos/sdk_gree/rf.c:63
+00a20490 T status_parse	/home/gree/QCA_Project/demos/sdk_gree/rf.c:126
+00a2051c T rf_verify_checksum	/home/gree/QCA_Project/demos/sdk_gree/rf.c:992
+00a2054c T rf_gen_checksum	/home/gree/QCA_Project/demos/sdk_gree/rf.c:1014
+00a2056c T __divsi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:617
+00a205d4 T __modsi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:761
+00a20620 T __udivsi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:548
+00a20670 T __umodsi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:703
+00a206b0 T __floatunsidf	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-df.S:3327
+00a206bc T __floatsidf	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/ieee754-df.S:3338
+00a206f0 T _qcom_HTC_ReturnBuffers	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_system.c:107
+00a206f8 T qcom_event_filter_cb_forstart	/root/3.1/fc.p4/target/apps/lib/hostless/user_apps.c:24
+00a20700 T _ifd_clr	/root/3.1/fc.p4/target/src/domain/priv_soselect.c:171
+00a20734 T _ifd_set	/root/3.1/fc.p4/target/src/domain/priv_soselect.c:201
+00a20748 T _ifd_isset	/root/3.1/fc.p4/target/src/domain/priv_soselect.c:222
+00a20764 T _ifd_get	/root/3.1/fc.p4/target/src/domain/priv_soselect.c:245
+00a20778 T whal_pre_init_callback	/root/3.1/fc.p4/target/patch/AR6006/v2/whal_install_patches.c:38
+00a20780 t WLAN_WMI_directbuf_event_sent_null	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_p2p_patch.c:130
+00a20788 t wmi_get_stats_delivered	/root/3.1/fc.p4/target/patch/AR6006/v2/wlan_wmi_patch.c:73
+00a20790 t wpsbuf_head	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/../../../src/wlan/wps/include/wpsbuf.h:118
+00a207a0 T patch_p2p_write_dset_CB	/root/3.1/fc.p4/target/patch/AR6006/v2_iot/wps_main_patch.c:2163
+00a207a8 T qcom_reg_read	/root/3.1/fc.p4/target/src/phost/wmi_tmp.c:26
+00a207b4 T _tx_thread_interrupt_control	/tmp/components/rel/threadx.ioe/5.6/tx_thread_interrupt_control.S:103
+00a207d0 t DisableUartInterrupts	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:241
+00a207f4 t EnableUartInterrupts	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:250
+00a20814 T trigger_dsr1	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:397
+00a20820 T _CatchRxOverFlowError	/root/3.1/fc.p4/target/apps/lib/hostless/uartserp/uartserp.c:425
+00a20828 t _console_process_char	/root/3.1/fc.p4/target/apps/lib/hostless/priv_uart.c:141
+00a20830 T sys_time_print	/root/3.1/fc.p4/target/apps/lib/hostless/qcom_event.c:30
+00a20838 T qca_atoi	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:130
+00a20868 T qca_strcat	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:154
+00a2088c T qca_strchr	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:180
+00a208a0 T _getshort	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1301
+00a208b8 T _getlong	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1313
+00a208e0 T _getoffset	/root/3.1/fc.p4/target/src/ipstack/dns/dnsclnt.c:1327
+00a20910 T _cdr_completed	/root/3.1/fc.p4/target/src/domain/cdr.c:82
+00a20920 T cdr_handler_register	/root/3.1/fc.p4/target/src/domain/cdr.c:94
+00a20934 T _cdr_init	/root/3.1/fc.p4/target/src/domain/cdr.c:106
+00a2093c T cdr_socket_set_completed_flag	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:120
+00a20948 T soreceive_is_block	/root/3.1/fc.p4/target/src/domain/cdr_socket_handler.c:592
+00a20978 T cdr_misc_set_completed_flag	/root/3.1/fc.p4/target/src/domain/misc_cdr_handler.c:28
+00a20980 T qca_so_check	/root/3.1/fc.p4/target/src/domain/priv_socksend.c:49
+00a209a8 T patch_ar6000SetPaprdReducedPower	/root/3.1/fc.p4/target/patch/AR6006/v2/ar6000_eeprom_patch.c:541
+00a209cc T _alt_check	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:149
+00a20a14 T _adjust_fast_div_bias_tp	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:176
+00a20d60 T _tune_comb_LNA1_value	/root/3.1/fc.p4/target/patch/AR6006/v2/ath_antdiv.c:473
+00a20d78 T _SerPFlushBuffer	/root/3.1/fc.p4/target/apps/lib/hostless/serport/serial_port.c:24
+00a20d88 T _xt_user_exit	/tmp/components/rel/threadx.ioe/5.6/xtensa_vectors.S:476
+00a20d9c T __ashldi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:833
+00a20db4 T __ashrdi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:854
+00a20dd0 T __lshrdi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:875
+00a20de8 T _etext
+00a20de8 A _text_end
+00a20df0 t locfmt$15956_11_2
+00a20e00 t locfmt$15957_11_3
+00a20e20 t locfmt$15958_11_4
+00a20e40 t locfmt$15959_11_5
+00a20e60 t locfmt$15960_11_6
+00a20e80 t locfmt$15961_11_7
+00a20ea0 t locfmt$16179_24_2
+00a20ec0 t locfmt$16204_28_2
+00a20ed0 t locfmt$10421_4_5
+00a20f10 t locfmt$10422_4_6
+00a20f30 t locfmt$10423_4_7
+00a20f40 t locfmt$10424_4_8
+00a20f48 t locfmt$10425_4_9
+00a20f50 t locfmt$10429_4_10
+00a20f60 t locfmt$14235_2_26
+00a20f80 t locfmt$16904_15_14
+00a20f88 t locfmt$16905_15_15
+00a20f90 t locfmt$17086_23_27
+00a20fb0 t locfmt$17993_4_6
+00a20fd0 t locfmt$18466_17_1
+00a20ff0 t locfmt$18135_2_2
+00a21010 t locfmt$18297_5_16
+00a21030 t locfmt$18298_5_18
+00a21070 t locfmt$18299_5_19
+00a210b0 t locfmt$18300_5_20
+00a210f0 t locfmt$18301_5_21
+00a21110 t locfmt$18302_5_22
+00a21150 t locfmt$18525_6_12
+00a21180 t locfmt$18527_6_13
+00a211b0 t locfmt$18531_6_17
+00a211d0 t locfmt$18856_10_23
+00a21200 t locfmt$18857_10_24
+00a21230 t locfmt$18859_10_26
+00a21250 t locfmt$18860_10_27
+00a21280 t locfmt$18862_10_29
+00a212a0 t locfmt$19096_11_34
+00a212a8 t locfmt$19097_11_35
+00a212b0 t locfmt$19344_13_11
+00a212d0 t locfmt$20495_34_1
+00a212f0 t locfmt$17641_5_3
+00a21320 t locfmt$17649_7_4
+00a21330 t locfmt$17675_8_8
+00a21350 t locfmt$17712_16_2
+00a21370 t locfmt$17733_17_12
+00a21390 t locfmt$17734_17_13
+00a213d0 t locfmt$17772_9_4
+00a213e0 t locfmt$17813_19_7
+00a21400 t locfmt$17841_20_7
+00a21420 t locfmt$17869_21_7
+00a21440 t locfmt$17900_10_6
+00a21460 t locfmt$17901_10_8
+00a21480 t locfmt$17932_11_7
+00a21490 t locfmt$17934_11_8
+00a214b0 t locfmt$17935_11_9
+00a214d0 t locfmt$17938_11_11
+00a214e0 t locfmt$18040_22_12
+00a214f0 t locfmt$18134_12_4
+00a21510 t locfmt$18154_13_7
+00a21530 t locfmt$18196_14_6
+00a21560 t locfmt$18197_14_8
+00a21590 t locfmt$18260_26_4
+00a215a0 t locfmt$18273_27_4
+00a215c0 t locfmt$18349_31_7
+00a215e0 t locfmt$18431_34_1
+00a21600 t locfmt$15021_22_8
+00a21610 t locfmt$15023_22_10
+00a21630 t locfmt$15856_15_4
+00a21660 t locfmt$15933_16_37
+00a21680 t locfmt$17311_19_16
+00a216a0 t locfmt$17316_19_19
+00a216d0 t locfmt$17323_19_27
+00a216f0 t locfmt$17324_19_28
+00a21720 t locfmt$17331_19_36
+00a21740 t locfmt$17332_19_37
+00a21750 t locfmt$17334_19_38
+00a21770 t locfmt$17788_20_17
+00a21790 t locfmt$17797_20_26
+00a217a0 t locfmt$19062_30_1
+00a217c0 t locfmt$16849_9_1
+00a217e0 t locfmt$16688_24_3
+00a21800 t locfmt$16727_25_8
+00a21830 t locfmt$16780_26_1
+00a21850 t locfmt$15816_17_7
+00a21870 t locfmt$15817_17_8
+00a21878 t locfmt$15818_17_9
+00a21880 t locfmt$15819_17_10
+00a21882 t locfmt$15823_17_11
+00a21890 t locfmt$15729_5_1
+00a218b0 t locfmt$21363_79_14
+00a218d0 t locfmt$21705_83_10
+00a218e0 t locfmt$21776_68_5
+00a218f0 t locfmt$21782_68_7
+00a21910 t locfmt$21785_68_8
+00a21930 t locfmt$21789_68_9
+00a21940 t locfmt$14629_2_5
+00a21960 t locfmt$14695_6_8
+00a21990 t locfmt$14696_6_10
+00a219c0 t locfmt$13848_10_4
+00a219f0 t locfmt$13849_10_5
+00a21a20 t locfmt$13850_10_6
+00a21a40 t locfmt$13851_10_7
+00a21a50 t locfmt$13852_10_8
+00a21a70 t locfmt$13853_10_9
+00a21a80 t locfmt$13854_10_10
+00a21aa0 t locfmt$13855_10_11
+00a21ab0 t locfmt$13856_10_12
+00a21ad0 t locfmt$13857_10_13
+00a21ae0 t locfmt$13858_10_14
+00a21b00 t locfmt$13859_10_15
+00a21b10 t locfmt$13860_10_16
+00a21b30 t locfmt$13861_10_17
+00a21b40 t locfmt$13862_10_18
+00a21b60 t locfmt$13863_10_19
+00a21b70 t locfmt$13864_10_20
+00a21b90 t locfmt$13865_10_21
+00a21ba0 t locfmt$13866_10_22
+00a21bc0 t locfmt$13867_10_23
+00a21bd0 t locfmt$13868_10_24
+00a21bf0 t locfmt$13869_10_25
+00a21c00 t locfmt$13870_10_26
+00a21c20 t locfmt$13871_10_27
+00a21c30 t locfmt$13872_10_28
+00a21c60 t locfmt$13873_10_29
+00a21c80 t locfmt$13874_10_30
+00a21c90 t locfmt$13875_10_31
+00a21cb0 t locfmt$13876_10_32
+00a21cd0 t locfmt$13877_10_33
+00a21ce0 t locfmt$13881_10_34
+00a21d20 t locfmt$13882_10_35
+00a21d70 t locfmt$13883_10_36
+00a21d90 t locfmt$13884_10_37
+00a21da0 t locfmt$13885_10_38
+00a21dd0 t locfmt$13886_10_39
+00a21e00 t locfmt$13887_10_40
+00a21e10 t locfmt$13888_10_41
+00a21e40 t locfmt$13889_10_42
+00a21e50 t locfmt$13890_10_43
+00a21e70 t locfmt$13891_10_44
+00a21e80 t locfmt$13892_10_45
+00a21ea0 t locfmt$13893_10_46
+00a21eb0 t locfmt$13894_10_47
+00a21ed0 t locfmt$13895_10_48
+00a21ef0 t locfmt$13900_10_49
+00a21f10 t locfmt$13901_10_50
+00a21f20 t locfmt$13902_10_51
+00a21f40 t locfmt$13903_10_52
+00a21f70 t locfmt$13904_10_53
+00a21f90 t locfmt$13905_10_54
+00a21fa0 t locfmt$13906_10_55
+00a21fd0 t locfmt$14021_13_4
+00a21ff0 t locfmt$13810_8_6
+00a22010 t locfmt$13815_8_12
+00a22030 t locfmt$13816_8_13
+00a22050 t locfmt$13968_23_4
+00a22080 t locfmt$13969_23_5
+00a22090 t locfmt$13971_23_7
+00a220b0 t locfmt$13974_23_8
+00a220e0 t locfmt$13976_23_9
+00a22100 t locfmt$13978_23_10
+00a22120 t locfmt$13980_23_11
+00a22140 t locfmt$13982_23_12
+00a22160 t locfmt$13984_23_13
+00a22180 t locfmt$13986_23_14
+00a221a0 t locfmt$17949_27_8
+00a221b0 t locfmt$18028_29_5
+00a221d0 t locfmt$18045_30_3
+00a221f0 t locfmt$18062_31_8
+00a22210 t locfmt$18063_31_9
+00a22240 t locfmt$18152_34_5
+00a22260 t locfmt$18154_34_6
+00a22280 t locfmt$18231_35_15
+00a222b0 t locfmt$18234_35_16
+00a222c0 t locfmt$18235_35_17
+00a222d0 t locfmt$18236_35_18
+00a222e0 t locfmt$18237_35_19
+00a22300 t locfmt$18338_36_10
+00a22310 t locfmt$18339_36_11
+00a22330 t locfmt$18340_36_12
+00a22350 t locfmt$18341_36_13
+00a22370 t locfmt$18342_36_14
+00a22380 t locfmt$18463_38_5
+00a223a0 t locfmt$18464_38_6
+00a223c0 t locfmt$18465_38_7
+00a223d0 t locfmt$18544_39_11
+00a223f0 t locfmt$18546_39_13
+00a22410 t locfmt$18547_39_14
+00a22430 t locfmt$18549_39_16
+00a22450 t locfmt$18553_39_17
+00a22470 t locfmt$16450_3_17
+00a22490 t locfmt$16451_3_18
+00a224b0 t locfmt$16452_3_19
+00a224d0 t locfmt$16453_3_20
+00a224f0 t locfmt$16560_5_14
+00a22500 t locfmt$16561_5_15
+00a22520 t locfmt$16562_5_16
+00a22540 t locfmt$16685_7_5
+00a22550 t locfmt$16751_8_8
+00a22570 t locfmt$10688_4_6
+00a22580 t locfmt$10710_4_7
+00a225b0 t locfmt$16615_31_5
+00a225e0 t locfmt$16670_33_5
+00a22610 t locfmt$16707_34_6
+00a22620 t locfmt$16711_34_7
+00a22650 t locfmt$15514_7_4
+00a22680 t locfmt$16004_3_9
+00a226b0 t locfmt$15981_2_11
+00a226d0 t locfmt$15982_2_13
+00a226e0 t locfmt$15983_2_14
+00a226f0 t locfmt$15984_2_15
+00a22700 t locfmt$15985_2_16
+00a22710 t locfmt$15986_2_17
+00a22720 t locfmt$15987_2_18
+00a22730 t locfmt$15997_2_19
+00a22750 t locfmt$15499_18_12
+00a22770 t locfmt$16485_3_5
+00a22790 t locfmt$16486_3_6
+00a227b0 t locfmt$16487_3_7
+00a227c0 t locfmt$16125_15_9
+00a227d0 t locfmt$16127_15_10
+00a227e0 t locfmt$16128_15_11
+00a22810 t locfmt$16170_16_12
+00a22820 t locfmt$16176_16_18
+00a22840 t locfmt$16188_16_27
+00a22860 t locfmt$16330_17_7
+00a22870 t locfmt$16337_17_11
+00a22890 t locfmt$16338_17_14
+00a228a0 t locfmt$16473_20_1
+00a228c0 t locfmt$11657_4_3
